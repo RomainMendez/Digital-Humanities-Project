@@ -1,0 +1,12 @@
+@article{10.2307/20690634,
+ ISSN = {00207829, 19306571},
+ URL = {http://www.jstor.org/stable/20690634},
+ journal = {International Legal Materials},
+ number = {3},
+ pages = {567--582},
+ publisher = {American Society of International Law},
+ title = {SWISS COURT DECISION CONCERNING OBLIGATION OF BANKS TO FURNISH INFORMATION IN TAX FRAUD PROCEEDINGS},
+ volume = {9},
+ year = {1970}
+}
+
