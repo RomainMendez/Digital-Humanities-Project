@@ -27,3 +27,6 @@ Choisir un temps (passé ou présent) et s'y tenir.
 - Est-ce que les banques sont promues ? 
     - Quels mots-clés pour détecter les articles positifs ?
         - PIB, emploi, croissance ...
+
+## Bibliographie
+Changer le format de la conférence pour ajouter le mot conférence à la fin de la référence et pas au début, surtout pas dans le titre comme actuellement.
