@@ -145,20 +145,7 @@ blanchiment, PIB, emploi, croissance.
 
 
 \section{Outils Méthodologiques}
-\begin{figure}[t]
-  \centering
-\includegraphics[width=0.8\textwidth]{ngram.png}
-\caption{
-  N-gram du terme "secret bancaire" dans les journaux \textit{Journal de Genève}
-  (bleu) et \textit{Gazette de Lausanne} (rouge).
-}
-\end{figure}
-\begin{figure}[hb]
-  \centering
-  \includegraphics[width=1.0\textwidth]{reduced.png}
-  \caption{Zoom dans la visualisation sur les articles contenant les mots "secret 
-bancaire" dans l'année 1984 dans le \textit{Journal de Genève}}
-\end{figure}
+
 Afin de pouvoir traiter en un temps raisonnable notre corpus de texte, plusieurs
 pistes d’analyse s’offrent à nous. Dans un premier temps un filtrage des
 articles s’impose, pour ne travailler que sur des articles contenant des termes
@@ -166,6 +153,22 @@ importants du sujet (voir la liste de terme clés dans la précédente partie).
 Aussi, nous pouvons lier l'apparition du terme secret bancaire à des événements
 liés au sujet et voir l'évolution de la popularité du terme au fil du temps comme dans
 la figure 1.
+
+\begin{figure}[!htb]
+  \centering
+\includegraphics[width=0.8\textwidth]{ngram.png}
+\caption{
+  N-gram du terme "secret bancaire" dans les journaux \textit{Journal de Genève}
+  (bleu) et \textit{Gazette de Lausanne} (rouge).
+}
+\end{figure}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=1.0\textwidth]{reduced.png}
+  \caption{Zoom dans la visualisation sur les articles contenant les mots "secret 
+bancaire" dans l'année 1984 dans le \textit{Journal de Genève}}
+\end{figure}
 
 Ensuite, nous pensons procéder à des visualisations du corpus filtré avec des
 logiciels tel que Iramuteq afin de voir les relations entre les mots (quels mots
@@ -199,7 +202,7 @@ nous servir de garde-fou sur nos résultats. Une fois ce travail accompli, nous
 nous servirons des résultats pour analyser la position idéologique des journaux
 au fil de la période étudiée. 
 
-
+\newpage
 
 \bibliographystyle{agsm}
 \bibliography{bib/bibliography}
