@@ -14,7 +14,7 @@
 
 \usepackage{graphicx}
 \graphicspath{ {./} }
-\usepackage{wrapfig}
+
 \usepackage[top=0.8in, bottom=0.8in, left=0.8in, right=0.8in]{geometry}
 
 
@@ -105,6 +105,17 @@ confirmée par les articles du corpus. Afin de nous demander, comment évolue la
 couverture médiatique du secret bancaire au XXe siècle ? 
 
 \section{Information Bibliographiques et de Corpus}
+
+\begin{figure}[t]
+  \centering
+\includegraphics[width=0.8\textwidth]{ngram.png}
+\caption{
+  N-gram du terme "secret bancaire" dans les journaux \textit{Journal de Genève}
+  (bleu) et \textit{Gazette de Lausanne} (rouge).
+}
+\end{figure}
+
+
 Nous admettons dans notre analyse les articles extrait de la “Gazette de
 Lausanne” et du “Journal de Genève”, issus dans les deux journaux pendants la
 période 1900-1995. Pour restreindre l’analyse aux article pertinents, le corpus
@@ -131,7 +142,7 @@ Nous étudierons aussi l'accord bilatéral entre la Suisse et les Etats-Unis sur
 le secret bancaire, comme témoigné dans un rapport du \citet{insiderTrading83}.
 
 L’histoire financière suisse a été étudié extensivement par Sébastien Guex et
-Malik Mazbouri \citep{Guex99} \citep{Guex00} \citep{Mazbouri12}.
+Malik Mazbouri \citep{Guex99, Guex00, Mazbouri12}.
 Les aspects juridiques du secret bancaire ont été déja étudié en 1969
 par \citet{Mueller69}.
 La spécificité du cas suisse au niveau international est analysé par
@@ -142,6 +153,8 @@ fiscal, liechtenstein, impôt anticipé, pots-de-vin, manipulation boursières,
 paradis fiscal, compensateurs, corruption, affaire chiasso, argent sale,
 blanchiment.
 
+
+
 \section{Outils Méthodologiques}
 
 Afin de pouvoir traiter en un temps raisonnable notre corpus de texte, plusieurs
@@ -149,12 +162,21 @@ pistes d’analyse s’offrent à nous. Dans un premier temps un filtrage des
 articles s’impose, pour ne travailler que sur des articles contenant des termes
 importants du sujet (voir la liste de terme clés dans la précédente partie).
 
+\begin{figure}[hb]
+  \centering
+  \includegraphics[width=1.0\textwidth]{reduced.png}
+  \caption{Zoom dans la visualisation sur les articles contenant les mots "secret 
+bancaire" dans l'année 1984 dans le \textit{Journal de Genève}}
+\end{figure}
+
+\newpage
+
 Ensuite, nous pensons procéder à des visualisations du corpus filtré avec des
 logiciels tel que Iramuteq afin de voir les relations entre les mots (quels mots
 se suivent souvent, et quelle est leur connotation).
 
 Avec de telles visualisation nous voulons aussi que cela nous permette de
-trouver plus de mots-clés, par exemple dans la Figure 1. Nous pouvons voir que
+trouver plus de mots-clés, par exemple dans la figure 2. Nous pouvons voir que
 les mots Secret et Bancaire sont peu liée au mots initiative populaire en 1984
 (alors que c'est une année d'initiative populaire sur le sujet du secret
 bancaire). Ici on peut voir que les thèmes en question sont toujours liés à la
@@ -182,11 +204,8 @@ nous servir de garde-fou sur nos résultats. Une fois ce travail accompli, nous
 nous servirons des résultats pour analyser la position idéologique des journaux
 au fil du temps dans la période étudiée. 
 
-\begin{figure}
-  \includegraphics[width=7in]{reduced.png}
-  \caption{Zoom dans la visualisation sur les articles contenant les mots "secret 
-bancaire" dans l'année 1984 dans le \textit{Journal de Genève}}
-\end{figure}
+
+
 
 \bibliographystyle{agsm}
 \bibliography{bib/bibliography}
