@@ -18,7 +18,7 @@ Temps limité => recherches approfondies à limiter sur un certain nombre d'acte
 
 
 ## Première intervention (Méthodologie):
-On est en avance, on est bien, peut-être présentation la semaine prochaine sur le petit script filterdata.py
+D'une manière générale, ça va.
 
 ## Seconde Intervention (Commentaire):
 - Chercher autour des différentes crises (dictateurs ...) s'il y a des discussions autour des banques suisses (avec les grands scandales sur les fortunes africaines, sud-américaine ...)

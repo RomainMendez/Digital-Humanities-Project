@@ -5,3 +5,5 @@
 *.out
 *synctex.gz
 rapport/rapport.pdf
+.vscode
+research
