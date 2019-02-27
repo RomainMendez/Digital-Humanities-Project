@@ -15,19 +15,24 @@ def read_jsonlines(bz2_file):
 # Parsing the parameters of the program
 filter = sys.argv[2]
 filename = sys.argv[1]
+savefilename = sys.argv[3]
 
 f = BZ2File(os.path.join("data", filename), 'r')
         
 # get the list of articles it contains (= a json object on each line)
 articles = list(read_jsonlines(f))
         
-# load the first 100 articles as json and access their attributes
+# Opening the file
+savefile = open(savefilename, 'w')
+
+# load articles by articles
 for a in articles:
             
-                # decode the json string into an object (dict)
+    # decode the json string into an object (dict)
     json_article = json.loads(a)
     if filter in json_article["fulltext"]:
-        print("**** *" + json_article["date"])
-        print(
+
+        savefile.write("**** *" + json_article["date"])
+        savefile.write(
             json_article["fulltext"]
         )
