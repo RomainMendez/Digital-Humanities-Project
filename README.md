@@ -27,6 +27,10 @@ factuelle : le jour de l’échec en votation, les journaux ont écrit que «
 l’initiative socialiste avait été balayée ». Ce n’est pas un jugement sur
 l’initiative ou sur le socialisme.
 
+La bibliographie devrait être nettoyée. Par ex : premier titre sans guillemets
+et italique manquant sur le titre de l’ouvrage, ou encore référence
+incomplète en ce qui concerne la toute dernière (mentionner le DHS).
+
 
 ### Plus d'idées
 
