@@ -1,2 +1,2 @@
 #! /bin/bash
-grep -h -i -f -E keywords ../data/trimmed/*.jsonl > ../data/filtered.jsonl
+grep -h -i -E -f keywords ../data/trimmed/*.jsonl > ../data/filtered.jsonl
