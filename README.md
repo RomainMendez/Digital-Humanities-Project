@@ -35,8 +35,4 @@ incomplète en ce qui concerne la toute dernière (mentionner le DHS).
 ### Plus d'idées
 
   - Quelles publicités ? Pubs payées par des banques ? (Je parle de l'espèce de
-  rubrique financière par exemple.)
-
-  - Chercher autour des différentes crises (dictateurs ...) s'il y a des
-    discussions autour des banques suisses (avec les grands scandales sur les
-    fortunes africaines, sud-américaine ...)
+  rubrique financière par exemple.) --> mentionner impossible

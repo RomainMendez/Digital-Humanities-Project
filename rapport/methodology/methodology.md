@@ -1,5 +1,9 @@
 # Méthodologie
 
+(Romain)
+--> mettre au présent
+--> merge la méthodologie du semestre passé
+
 Notre idée centrale est de porter l’analyse sur la différence entre les deux
 journaux et leur évolution dans le temps. La méthodologie détaillée ici sera
 donc appliquée sur les deux journaux séparément et elle sera organisé en trois
@@ -43,6 +47,10 @@ mots clés. De cette façon, nous travaillons avec environ 9 Go de données
 décomprimées. Une recherche par mots clés passe ainsi de 1h30 sur les données
 compressées à une minute sur les données nettoyées et décomprimées.
 
+Pietro
+--> raccourcir
+--> Deux corpus: base (mots-clés) et secret bancaire sous-corpus
+
 ### Analyse de la présentation
 
 Nous cherchons à comprendre et comparer la façon dont le sujet du secret
@@ -56,6 +64,10 @@ toujours en haut de la page. En plus, nous vérifierons si les articles sur le
 secret bancaire font parti d’une rubrique récurrente ou non. Finalement, nous
 évaluerons la longueur des articles, un long article indiquant que le sujet est
 perçu comme important par la rédaction.
+
+(Pietro)
+--> N-Gram
+--> lister les analyses faites (tease the results)
 
 
 [^1]: Une _heatmap_, en français "carte thermique", est une graphique qui
@@ -79,6 +91,9 @@ La deuxième méta-donnée centrale est l'auteur dont nous avons deux catégorie
   comme par exemple une banque ou est-ce un représentant politique? Quel est le
   contexte de l'intervention médiatique pour cette institution?
 
+(Yann)
+--> lister les analyses faites (tease the results)
+
 
 ### Analyse du contenu
 
@@ -91,3 +106,7 @@ factuelle ou non. Nous voulons aussi tenter d’analyser le type de mot utilisé
 par les deux journaux. Toutes ces analyses ont pour but de faire ressortir les
 différences entre la manière dont les deux journaux parlent du sujet du secret
 bancaire suisse.
+
+(Romain Iramuteq)
+--> Dendogram par journal: regarder les différences
+--> lister les analyses faites (tease the results)
