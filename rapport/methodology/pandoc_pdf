@@ -1,1 +1,0 @@
-pandoc layout_pandoc.yaml methodology.md -o methodology.pdf
