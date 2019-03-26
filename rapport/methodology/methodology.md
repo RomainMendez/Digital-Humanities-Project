@@ -150,3 +150,9 @@ bancaire suisse.
 (TODO: Romain Iramuteq)
 --> Dendogram par journal: regarder les différences
 --> lister les analyses faites (tease the results)
+
+## Critique et difficultées
+
+- OCR de mauvaise qualité
+- pas de noms d'auteurs pour les articles avant 1960
+- pas de liste d'auteurs sur Internet de la _GDL_
