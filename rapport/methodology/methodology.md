@@ -21,35 +21,21 @@ Afin de conduire notre analyse, nous devons réduire le corpus pour l'explorer d
 manière plus rapide et interactive. Le corpus de base se constitue de tous les
 articles de la _Gazette de Lausanne_ et du _Journal de Genève_ sortis entre 1900
 et 1999. Les données nous parviennent compressées en format `bzip2` et occupent
-en total 18 Go sur le disque. Si les données sont décomprimées, le volume
-s'augmente d’un facteur dix. Ceci nous cause un problème, car plus que 200 Go de
-données ne rentrent pas dans la mémoire RAM d'un ordinateur, limitant les
-méthodes que nous pouvons appliquer.
-
-Pour résoudre ce problème, nous pourrions opérer sur les données en les
-décompressant au moment du besoin. Mais cette approche  introduit de longs temps
-d'élaboration. Effectivement, le format `bzip2` permet une forte réduction de la
-taille des fichiers, mais à coût d'un long temps de décompression. Une
-expérience confirme que pour chercher les mots "secret bancaire" dans un fichier
-`bzip2` contenant les articles du _Journal de Genève_ de 1970, la décompression
-nécessite 24.1s alors que le temps de recherche est de 0.6s. Pour cette raison
-nous  travaillerons sur un sous-ensemble des données décomprimées à l'avance.
-Mais nous souhaitons ne pas limiter notre corpus aux articles qui contiennent un
-des mots clés, car les autres articles seront utiles pour effectuer d’autres
-analyses, comme trouver tous les articles par un même auteur. Le problème
-consiste donc à réduire les 200 Go de données brutes pour les  manipuler
-aisément.
-
-Pour cela, nous ignorons les méta-données sur la position des mots sur la page
-qui occupent environ 90% du volume et ne sont pas nécessaires à nos analyses.
-Nous les gardons seulement pour les quelques articles qui contiennent un de nos
-mots clés. De cette façon, nous travaillons avec environ 9 Go de données
-décomprimées. Une recherche par mots clés passe ainsi de 1h30 sur les données
-compressées à une minute sur les données nettoyées et décomprimées.
-
-Pietro
---> raccourcir
---> Deux corpus: base (mots-clés) et secret bancaire sous-corpus
+en total 18 Go sur le disque. Nous créons trois sous-corpus dont on ce sert dans
+notre analyse. Le plus grand est consitué de touts les articles, décompréssés et
+sans métadonnées concernantes la position des mots dans l'article. On ce sert de
+ce corpus de 9 Go quand nous exigeons des informations qui regardent l'intierté
+des journaux, comme les noms des hauteurs ou la longeur en page du journal à une
+certaine date. Le deuxième corpus se limite aux articles de caractère financier
+et est extrait du premier corpus par la recherche des suivants môts clés dans les
+articles:
+_secret bancaire, place financière, banques suisses, fortait fiscal, paradis
+fiscal, affaire Chiasso, argent sale, blanchiment_.
+Nous utilisons ce corpus, qui est consitué de ~35k articles, pour nous comparer
+avec notre troisième corpus, sélectionné par le seul môt clés _secret bancaire_,
+contennant environs 1700 articles.
+De cette façon, nous pouvons détérminer si une certaine tendence de ce corpus
+est vraiment signifiante, ou si elle est propre de tout le corpus financier.
 
 ### Analyse de la présentation
 
