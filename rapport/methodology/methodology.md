@@ -1,6 +1,6 @@
 # Méthodologie
 
-(Romain)
+(TODO: Romain)
 --> mettre au présent
 --> merge la méthodologie du semestre passé
 
@@ -47,7 +47,7 @@ mots clés. De cette façon, nous travaillons avec environ 9 Go de données
 décomprimées. Une recherche par mots clés passe ainsi de 1h30 sur les données
 compressées à une minute sur les données nettoyées et décomprimées.
 
-Pietro
+(TODO: Pietro)
 --> raccourcir
 --> Deux corpus: base (mots-clés) et secret bancaire sous-corpus
 
@@ -65,7 +65,7 @@ secret bancaire font parti d’une rubrique récurrente ou non. Finalement, nous
 évaluerons la longueur des articles, un long article indiquant que le sujet est
 perçu comme important par la rédaction.
 
-(Pietro)
+(TODO: Pietro)
 --> N-Gram
 --> lister les analyses faites (tease the results)
 
@@ -79,19 +79,27 @@ cadre au moyen d'une couleur.
 
 Le contexte d'un article inclut le date de publication. Celle-ci est la
 méta-donnée la plus importante, car elle peut facilement être mise en relation
-avec l’évolution du sujet.
+avec l’évolution du sujet mais elle a déjà été exploré dans l'analyse
+précédente.
 
 La deuxième méta-donnée centrale est l'auteur dont nous avons deux catégories.
+
+- **Agences de presse**: Beacoup d'articles dans un journal proviennet d'agences
+  de presse et ne sont pas écrits par un journaliste de la rédaction. Nous classifions
+  les articles des agences suivantes:
+    - ATS: Agence télégraphique suisse
+    - AFP: Agence France-Presse
+    - Reuters
+    - AP: Associated press
+
+  
 
 - **Journalistes**: Nous essayerons de mettre en perspective l’activité d’un
   journaliste. Est-ce un journaliste généraliste ou spécialisé? Quelles sont
   les thématiques de ses autres articles? De quand à quand est-il actif?
 
-- **Auteurs externes**: Est-ce que l’auteur s’exprime au nom d’une institution
-  comme par exemple une banque ou est-ce un représentant politique? Quel est le
-  contexte de l'intervention médiatique pour cette institution?
 
-(Yann)
+(TODO: Yann)
 --> lister les analyses faites (tease the results)
 
 
@@ -107,6 +115,6 @@ par les deux journaux. Toutes ces analyses ont pour but de faire ressortir les
 différences entre la manière dont les deux journaux parlent du sujet du secret
 bancaire suisse.
 
-(Romain Iramuteq)
+(TODO: Romain Iramuteq)
 --> Dendogram par journal: regarder les différences
 --> lister les analyses faites (tease the results)
