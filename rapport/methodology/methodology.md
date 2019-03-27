@@ -17,50 +17,63 @@ catégories.
 
 ## Pre-processing
 
-Afin de conduire notre analyse, nous devons réduire le corpus pour l'explorer de
-manière plus rapide et interactive. Le corpus de base se constitue de tous les
-articles de la _Gazette de Lausanne_ et du _Journal de Genève_ sortis entre 1900
-et 1999. Les données nous parviennent compressées en format `bzip2` et occupent
-en total 18 Go sur le disque. Nous créons trois sous-corpus dont on ce sert dans
-notre analyse. Le plus grand est consitué de touts les articles, décompréssés et
-sans métadonnées concernantes la position des mots dans l'article. On ce sert de
-ce corpus de 9 Go quand nous exigeons des informations qui regardent l'intierté
-des journaux, comme les noms des hauteurs ou la longeur en page du journal à une
-certaine date. Le deuxième corpus se limite aux articles de caractère financier
-et est extrait du premier corpus par la recherche des suivants môts clés dans les
-articles:
-_secret bancaire, place financière, banques suisses, fortait fiscal, paradis
-fiscal, affaire Chiasso, argent sale, blanchiment_.
-Nous utilisons ce corpus, qui est consitué de ~35k articles, pour nous comparer
-avec notre troisième corpus, sélectionné par le seul môt clés _secret bancaire_,
-contennant environs 1700 articles.
-De cette façon, nous pouvons détérminer si une certaine tendence de ce corpus
-est vraiment signifiante, ou si elle est propre de tout le corpus financier.
+Afin de conduire notre analyse, nous devons réduire le corpus pour l'explorer
+de manière plus rapide et interactive. Le corpus de base se constitue de tous
+les articles de la _Gazette de Lausanne_ et du _Journal de Genève_ sortis entre
+1900 et 1999. Les données nous parviennent compressées en format `bzip2` et
+occupent en total 18 Go sur le disque. Nous créons trois sous-corpus dont on ce
+sert dans notre analyse. Le plus grand est consitué de touts les articles,
+décompréssés et sans métadonnées concernantes la position des mots dans
+l'article. On ce sert de ce corpus de 9 Go quand nous exigeons des informations
+qui regardent l'intierté des journaux, comme les noms des hauteurs ou la
+longeur en page du journal à une certaine date. Le deuxième corpus se limite
+aux articles de caractère financier et est extrait du premier corpus par la
+recherche des suivants môts clés dans les articles: _secret bancaire, place
+financière, banques suisses, fortait fiscal, paradis fiscal, affaire Chiasso,
+argent sale, blanchiment_.  Nous utilisons ce corpus, qui est consitué de ~35k
+articles, pour nous comparer avec notre troisième corpus, sélectionné par le
+seul môt clés _secret bancaire_, contennant environs 1700 articles.  De cette
+façon, nous pouvons détérminer si une certaine tendence de ce corpus est
+vraiment signifiante, ou si elle est propre de tout le corpus financier.
 
 
-## Analyse de la présentation
+## Statistiques de base
 
-Nous cherchons à comprendre et comparer la façon dont le sujet du secret
-bancaire suisse est abordé dans les deux journaux. Cela pose la question de la
-présentation des articles. À quelle page peut-on trouver les articles? Cette
-question nous permettra d’évaluer l’importance du sujet pour les deux journaux,
-en regardant si le sujet occupe la première ou s’il est dans les pages
-ultérieures. Nous voudrions aussi créer une _heatmap_[^1] de la position des
-articles sur la page, afin de voir si les articles se trouvent, par exemple,
-toujours en haut de la page. En plus, nous vérifierons si les articles sur le
-secret bancaire font parti d’une rubrique récurrente ou non. Finalement, nous
-évaluerons la longueur des articles, un long article indiquant que le sujet est
-perçu comme important par la rédaction.
+Pour nous approcher à l'analyse des articles, nous commençons en calculant et
+en visualisant certaines statistiques de base des articles, tel que le numéro
+de page, la longeur, ou la date.  Nous reproduisons donc le diagramme de N-Gram
+dans le temps, simplement en contant le nombre d'article sur le secret bancaire
+par années.
 
-(TODO: Pietro)
---> N-Gram
---> lister les analyses faites (tease the results)
+![Apparitions du terme "secret bancaire" dans les deux journaux au cours du temps](ngram_ts.png)
 
+Nous cherchons en suite à comparer la longeur d'un article sur le secret
+bancaire par rapport à un article générique du corpus financier. Nous pouvons
+constater en regardant les histogrammes du numéro de charactères par articles
+que les articles sur le secret bancaire, dans les deux journaux, sont en
+général un peu plus longs que les articles de finance génériques.
 
-[^1]: Une _heatmap_, en français "carte thermique", est une graphique qui
-indique la fréquence ou l'intensité de la donnée à chaque position dans un
-cadre au moyen d'une couleur.
+![Distribution de la longeur des articles](article_lengths.png)
 
+Nous éxaminons aussi, par moyen d'histogrammes de la page de l'article, la
+distribution des position des articles sur le secret bancaire, et des article
+financier en général.  Pour mieux interpreter les résultats de l'analyse de
+position dans le journal des articles, nous trouvons la longeur du journal pour
+chaque date, et calculons ainsi la position rélative de l'article dans le
+journal.  Nous cherchons enfin à voir si des rubriques spécialisées traitent le
+sujet, en éxaminant des nuages de points corrélants la date et la page des
+articles en question. Des ligne horizontales isolées, dans ces nuage de points,
+constituerait un indice d'une rubrique permanente qui traite la question à la
+page spécifique.
+
+![Nuage de point de page de l'article dans le temps sur les deux journaux](scatter.png){ width=60% }
+
+En comparant le numéros d'article en première page, nous constatons que nous
+trouvons 44 articles de premières pages sur le secret bancaire dans la _Gazette
+de Lausanne_, contre 56 dans le _Journal de Genève_. La fréquence d'une
+première page pour un article sur le secret bancaire est de 5% dans la _GDL_ et
+6% dans le _JDG_. En comparaison, la fréquence d'une première page pour un
+article générique finacier est de 2% pour la _GDL_ et 3% pour la _JDG_.
 
 ## Analyse du contexte
 
