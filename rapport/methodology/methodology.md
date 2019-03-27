@@ -55,7 +55,7 @@ l'histogramme suivant que les articles sur le secret bancaire, dans les deux
 journaux, sont en général un peu plus longs que les articles de finance
 génériques.
 
-![Distribution de la longueur des articles](article_lengths.png){ width=50% }
+![Distribution de la longueur des articles](article_lengths.png){ width=70% }
 
 Nous examinons aussi, à l'aide d'un histogramme de la page de l'article, la
 distribution des position des articles sur le secret bancaire. Pour mieux
