@@ -34,14 +34,14 @@ et est extrait du premier corpus par la recherche des mots clés suivants:
 Nous utilisons ce corpus de ~35'000 articles pour nous comparer avec notre
 troisième corpus, sélectionné par le seul mot clé "secret bancaire", contentant
 environ 1700 articles. De cette façon, nous pouvons déterminer si une certaine
-tendance de ce corpus est vraiment signifiante, ou si elle apparait dans tout le
+tendance de ce corpus est vraiment signifiante, ou si elle apparaît dans tout le
 corpus financier.
 
 ## Statistiques de base
 
 Nous commençons en calculant certaines statistiques de base, telles que le
 numéro de page, la longueur et la date d'un article.  Nous reproduisons donc le
-N-Gram dans le temps, pour les articles contant "secret bancaire" par année.
+N-Gram dans le temps, pour les articles contenant "secret bancaire" par année.
 
 ![Apparitions du terme "secret bancaire" dans les deux journaux au cours du temps](ngram_ts.png)
 
@@ -125,10 +125,10 @@ journaux:
 --> expliquer ce que tu fais
 
 #### Analyses de similitudes dans la Gazette de Lausanne
-![SimilitudesGdL](similitudeGdL.png){ width=50% }
+![Graph de similitudes dans la Gazette de Lausanne](similitudeGdL.png){ width=50% }
 
 #### Analyses de similitudes dans le Journal de Genève
-![SimilitudesGdL](similitudeJdG.png){ width=50% }
+![Graph de similitudes du Journal de Genève](similitudeJdG.png){ width=50% }
 
 --> expliquer ce qu'on voit
 
@@ -139,12 +139,29 @@ qui apparaissent plus de 50 fois ensemble sont montrés.
 En suite, toujours dans un esprit de comparaison des journaux, nous produisons 2 dendrogrammes sur les journaux.
 
 #### Dendrogramme de la Gazette de Lausanne
-![DandeogramGdl](DandeogramGdL.PNG){ width=50% }
+![Dendrogramme de la Gazette de Lausanne](DandeogramGdL.PNG){ width=50% }
 
 #### Dendrogramme du Journal de Genève
-![DandeogramJdG](DandeogramJdG.PNG){ width=50% }
+![Dendrogramme du Journal de Genève](DandeogramJdG.PNG){ width=50% }
 
-Après ces deux étapes nous percevons déjà de larges différences entre les deux journaux. --> comme quoi?
+Cela nous permet de comparer le langage utilisé dans les 2 journaux, 
+nous voyons ici qu'un journal a été organisé en 4 clusters et l'autre 
+en 5, montrant une divergence dans la façon d'aborder le sujet entre
+les 2 journaux. Les champs lexicaux sont proches mais cela nous apporte
+encore rien sur le contexte d'utilisation des mots.
+
+En poussant cette idée plus loin, nous obtenons les graphs suivants.
+
+![AFC de la Gazette de Lausanne](AFC2DL_GDL)
+![AFC du journal de Genève](AFC2DL_JDG.png)
+
+Cette visualisation nous représente les distances entre des mots dans le 
+texte, et nous permet de voir que entre les 2 journaux le vocabulaire 
+employé est plus mixé dans la gazette de Lausanne.
+
+Avec ces informations présente on peut déjà observer que le style d'écriture des articles
+est très différent.
+On observe par exemple que la Gazette de Lausanne semble mettre ensemble des articles qui parlent de secret bancaire avec les articles qui parlent d'affaires judiciaires (avec les mots `secret`, `bancaire` proche du mot judiciaire par exemple).
 
 ## Critique et difficultées
 
@@ -155,7 +172,7 @@ de reconnaissance est bien plus probable.
 Un autre problème est que le format de reconnaissance des articles est assez
 limité. Il a fallu que nous allions chercher le nom des auteurs manuellement,
 cependant nous avons observé que mettre le nom de l'auteur sur un article de
-journal ne deviens courant qu'à partir des années 60, limitant nos capacité
+journal ne devient courant qu'à partir des années 60, limitant nos capacité
 d'analyse avant cette période.
 
 Nous avons réussi à contourner ce problème en utilisant une liste de noms de
