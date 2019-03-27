@@ -2,28 +2,25 @@
 
 Notre idée centrale est de porter l’analyse sur la différence entre les deux
 journaux et leur évolution dans le temps. La méthodologie détaillée ici est donc
-appliquée sur les deux journaux séparément et elle est organisé en trois
-catégories.
+appliquée sur les deux journaux séparément et elle est organisé de manière
+suivante:
 
-  - La présentation des articles
-  - Le contexte des articles
-  - Le contenu des articles
-
-![Le schéma montre les outils que nous utilisons dans notre analyse.](methods.png){ width=50% }
+![Organisation et outils de l'analyse.](methods.png){ width=70% }
 
 ## Pre-processing
 
-Pour notre analyse, nous devons réduire le corpus pour l'explorer de manière
-plus rapide. Le corpus de base se constitue de tous les articles de la _Gazette
-de Lausanne_ (_GDL_) et du _Journal de Genève_ (_JDG_) sortis entre 1900 et
-1999. Les données nous parviennent compressées en format `bzip2` et occupent en
-total 18 Go sur le disque. Nous créons trois sous-corpus. Le plus grand est
-constitué de tous les articles, décomprimés et sans méta-données concernant la
-position des mots dans l'article. Nous nous servons de ce corpus-là pour des
-questions qui regardent l'entièreté des journaux, comme la longueur en page du
-journal à une certaine date. Le deuxième corpus se limite aux articles de
-caractère financier et est extrait du premier corpus par la recherche des
-mots clés suivants:
+Pour l'explorer de manière plus rapide, nous devons réduire le corpus de base
+qui se constitue des articles de la _Gazette de Lausanne_ (_GDL_) et du _Journal
+de Genève_ (_JDG_) sortis entre 1900 et 1999.  
+
+Nous créons trois corpus. Le plus grand est constitué de tous les articles,
+décomprimés (du format `bzip2`) et sans méta-données concernant la position des
+mots sur la page. Nous nous servons de ce corpus-là pour des questions qui
+regardent l'entièreté des journaux, comme la longueur en page du journal à une
+certaine date.
+
+Le deuxième corpus se limite aux articles de caractère financier
+et est extrait du premier corpus par la recherche des mots clés suivants:
 
 - secret bancaire
 - place financière
@@ -34,18 +31,17 @@ mots clés suivants:
 - argent sale
 - blanchiment
 
-Nous utilisons ce corpus, qui est constitué de ~35'000 articles, pour nous
-comparer avec notre troisième corpus, sélectionné par le seul mot clé _secret
-bancaire_, contentant environ 1700 articles. De cette façon, nous pouvons
-déterminer si une certaine tendance de ce corpus est vraiment signifiante, ou si
-elle apparait dans tout le corpus financier.
+Nous utilisons ce corpus de ~35'000 articles pour nous comparer avec notre
+troisième corpus, sélectionné par le seul mot clé "secret bancaire", contentant
+environ 1700 articles. De cette façon, nous pouvons déterminer si une certaine
+tendance de ce corpus est vraiment signifiante, ou si elle apparait dans tout le
+corpus financier.
 
 ## Statistiques de base
 
-Pour s'approcher à l'analyse des articles, nous commençons en calculant et
-certaines statistiques de base, telles que le numéro de page, la longueur et la
-date.  Nous reproduisons donc le N-Gram dans le temps, pour les articles contant
-"secret bancaire" par année.
+Nous commençons en calculant certaines statistiques de base, telles que le
+numéro de page, la longueur et la date d'un article.  Nous reproduisons donc le
+N-Gram dans le temps, pour les articles contant "secret bancaire" par année.
 
 ![Apparitions du terme "secret bancaire" dans les deux journaux au cours du temps](ngram_ts.png)
 
