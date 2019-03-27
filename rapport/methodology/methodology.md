@@ -1,9 +1,5 @@
 # Méthodologie
 
-(TODO: Romain)
---> mettre au présent
---> merge la méthodologie du semestre passé
-
 Notre idée centrale est de porter l’analyse sur la différence entre les deux
 journaux et leur évolution dans le temps. La méthodologie détaillée ici sera
 donc appliquée sur les deux journaux séparément et elle sera organisé en trois
@@ -55,7 +51,7 @@ général un peu plus longs que les articles de finance génériques.
 
 ![Distribution de la longeur des articles](article_lengths.png)
 
-Nous éxaminons aussi, par moyen d'histogrammes de la page de l'article, la
+Nous éxaminons aussi, à l'aide d'un histogrammes de la page de l'article, la
 distribution des position des articles sur le secret bancaire, et des article
 financier en général.  Pour mieux interpreter les résultats de l'analyse de
 position dans le journal des articles, nous trouvons la longeur du journal pour
@@ -77,7 +73,7 @@ article générique finacier est de 2% pour la _GDL_ et 3% pour la _JDG_.
 
 ## Analyse du contexte
 
-Le contexte d'un article inclut le date de publication. Celle-ci est la
+Le contexte d'un article inclut la date de publication. C'est la
 méta-donnée la plus importante, car elle peut facilement être mise en relation
 avec l’évolution du sujet mais elle a déjà été exploré dans l'analyse
 précédente.
