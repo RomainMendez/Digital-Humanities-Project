@@ -120,7 +120,7 @@ Wikipédia](https://fr.wikipedia.org/wiki/Jacques-Simon_Eggly).
 
 L'analyse de contenu se limite au corpus "secret bancaire". Dans un premier
 temps nous produisons des graphiques d'analyses de similitudes pour les deux
-journaux:
+journaux.
 
 ![Graph de similitudes dans la Gazette de Lausanne](similitudeGdL.png){ width=50% }
 
@@ -136,10 +136,8 @@ qui apparaissent plus de 50 fois ensemble sont montrés reliés dans le graph.
 
 En suite, toujours dans un esprit de comparaison des journaux, nous produisons 2 dendrogrammes sur les journaux.
 
-#### Dendrogramme de la Gazette de Lausanne
 ![Dendrogramme de la Gazette de Lausanne](DandeogramGdL.PNG){ width=50% }
 
-#### Dendrogramme du Journal de Genève
 ![Dendrogramme du Journal de Genève](DandeogramJdG.PNG){ width=50% }
 
 Cela nous permet de comparer le langage utilisé dans les deux journaux, 
