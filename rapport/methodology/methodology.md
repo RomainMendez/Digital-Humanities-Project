@@ -120,48 +120,38 @@ Wikipédia](https://fr.wikipedia.org/wiki/Jacques-Simon_Eggly).
 
 L'analyse de contenu se limite au corpus "secret bancaire". Dans un premier
 temps nous produisons des graphiques d'analyses de similitudes pour les deux
-journaux:
+journaux.
 
---> expliquer ce que tu fais
+![Graphe de similitudes du _JDG_ (gauche) et de la _GDL_ (droite)](similitude.png){ width=90% }
 
-#### Analyses de similitudes dans la Gazette de Lausanne
-![Graph de similitudes dans la Gazette de Lausanne](similitudeGdL.png){ width=50% }
-
-#### Analyses de similitudes dans le Journal de Genève
-![Graph de similitudes du Journal de Genève](similitudeJdG.png){ width=50% }
-
---> expliquer ce qu'on voit
-
-Afin de rendre les visuels utilisables, nous affichons ici seulement les 40 mots
-(autres que préposition et déterminants), de la même façon seuls les termes
+Afin de rendre les visuels utilisables, nous affichons ici seulement 40 mots
+(autres que prépositions et déterminants), de la même façon seuls les termes
 qui apparaissent plus de 50 fois ensemble sont montrés.
 
-En suite, toujours dans un esprit de comparaison des journaux, nous produisons 2 dendrogrammes sur les journaux.
+Ensuite, toujours dans un esprit de comparaison des journaux, nous produisons
+deux dendrogrammes sur les journaux.
 
-#### Dendrogramme de la Gazette de Lausanne
-![Dendrogramme de la Gazette de Lausanne](DandeogramGdL.PNG){ width=50% }
+![Dendrogramme du _JDG_ (gauche) et de la _GDL_ (droite)](dendrogram.png){ width=90% }
 
-#### Dendrogramme du Journal de Genève
-![Dendrogramme du Journal de Genève](DandeogramJdG.PNG){ width=50% }
+Cela nous permet de comparer le langage utilisé dans les deux journaux, nous
+voyons ici qu'un journal a été organisé en quatre clusters et l'autre en cinq,
+montrant une divergence dans la façon d'aborder le sujet. Les champs lexicaux
+sont proches mais cela nous n'apporte encore rien sur le contexte de
+l'utilisation des mots.
 
-Cela nous permet de comparer le langage utilisé dans les 2 journaux, 
-nous voyons ici qu'un journal a été organisé en 4 clusters et l'autre 
-en 5, montrant une divergence dans la façon d'aborder le sujet entre
-les 2 journaux. Les champs lexicaux sont proches mais cela nous apporte
-encore rien sur le contexte d'utilisation des mots.
+En poussant cette idée plus loin, nous obtenons les graphes suivants.
 
-En poussant cette idée plus loin, nous obtenons les graphs suivants.
+![AFC du _JDG_ (gauche) et de la _GDL_ (droite)](AFC2DL.png)
 
-![AFC de la Gazette de Lausanne](AFC2DL_GDL)
-![AFC du journal de Genève](AFC2DL_JDG.png)
+Cette visualisation nous présente les distances entre des mots dans le texte, et
+nous permet de voir qu'entre les deux journaux le vocabulaire employé est plus
+mixé dans la gazette de Lausanne.
 
-Cette visualisation nous représente les distances entre des mots dans le 
-texte, et nous permet de voir que entre les 2 journaux le vocabulaire 
-employé est plus mixé dans la gazette de Lausanne.
-
-Avec ces informations présente on peut déjà observer que le style d'écriture des articles
-est très différent.
-On observe par exemple que la Gazette de Lausanne semble mettre ensemble des articles qui parlent de secret bancaire avec les articles qui parlent d'affaires judiciaires (avec les mots `secret`, `bancaire` proche du mot judiciaire par exemple).
+Avec ces informations, nous pouvons déjà observer que le style d'écriture des
+articles est différent. Nous observons par exemple que la _GDL_ semble mettre
+ensemble des articles qui parlent de secret bancaire avec des articles qui
+parlent d'affaires judiciaires (avec les mots "secret", "bancaire" proche du mot
+"judiciaire").
 
 ## Critique et difficultées
 
