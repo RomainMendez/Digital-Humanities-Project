@@ -122,25 +122,28 @@ L'analyse de contenu se limite au corpus "secret bancaire". Dans un premier
 temps nous produisons des graphiques d'analyses de similitudes pour les deux
 journaux.
 
-![Graphe de similitudes du _JDG_ (gauche) et de la _GDL_ (droite)](similitude.png){ width=90% }
+![Graphes de similitudes du _JDG_ (gauche) et de la _GDL_ (droite)](similitude.png){ width=90% }
 
-En regardant le résultat on voit que les mots qui apparaissent souvent avec "secret bancaire" dans les textes de la
-_GDL_ et du _JDG_ sont différents. Pour la _GDL_ on voit des mots tel que "affaire" qui
-apparaissent et qu'on ne voit pas dans le résultat avec le _JDG_.
+En regardant le résultat on voit que les mots qui apparaissent souvent avec
+"secret bancaire" dans les textes de la _GDL_ et du _JDG_ sont différents. Pour
+la _GDL_ on voit des mots tel que "affaire" qui apparaissent et qu'on ne voit
+pas dans le résultat avec le _JDG_.
 
 Afin de rendre les visuels utilisables, nous affichons ici seulement 40 mots
-(autres que préposition et déterminants). Afin de ne pas surcharger l'image seuls les termes
-qui apparaissent plus de 50 fois ensemble sont montrés reliés dans le graphe.
+(autres que préposition et déterminants). Afin de ne pas surcharger l'image
+seuls les termes qui apparaissent plus de 50 fois ensemble sont montrés reliés
+dans le graphe.
 
-En suite, toujours dans un esprit de comparaison des journaux, nous produisons 2 dendrogrammes sur les journaux.
+En suite, toujours dans un esprit de comparaison des journaux, nous produisons
+deux dendrogrammes sur les journaux.
 
-![Dendrogramme du _JDG_ (gauche) et de la _GDL_ (droite)](dendrogram.png){ width=90% }
+![Dendrogrammes du _JDG_ (gauche) et de la _GDL_ (droite)](dendrogram.png)
 
 Cela nous permet de comparer le langage utilisé dans les deux journaux, nous
-voyons qu'un journal a été organisé en quatre clusters et l'autre en cinq,
-montrant une divergence dans la façon d'aborder le sujet. Les champs lexicaux
-sont proches mais cela nous n'apporte encore rien sur le contexte d'utilisation
-des mots.
+voyons qu'un journal a été organisé en cinq clusters et l'autre en six, montrant
+une divergence dans la façon d'aborder le sujet. Les champs lexicaux sont
+proches mais cela nous n'apporte encore rien sur le contexte d'utilisation des
+mots.
 
 En poussant cette idée plus loin, nous obtenons les graphes suivants.
 
