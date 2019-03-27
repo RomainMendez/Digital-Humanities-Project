@@ -124,22 +124,44 @@ Wikipédia](https://fr.wikipedia.org/wiki/Jacques-Simon_Eggly).
 
 ## Analyse du contenu
 
-Pour finir, nous nous intéressons directement aux articles. Cependant nous
-allons nous arrêter à des observations objectives. L’idée étant d’utiliser
-_Iramuteq_ pour faire ressortir la structure des phrases et la distribution des
-mots. Ainsi, nous mettrons en lumière la différence entre le vocabulaire employé
-par les deux journaux afin de voir s'ils sont sur une couverture complètement
-factuelle ou non. Nous voulons aussi tenter d’analyser le type de mot utilisé
-par les deux journaux. Toutes ces analyses ont pour but de faire ressortir les
-différences entre la manière dont les deux journaux parlent du sujet du secret
-bancaire suisse.
+En isolant les articles utilisant les termes "secret bancaire", 
+"secrets bancaires", "secret bancaires" et "secrets bancaires"
+afin de pallier à de potentielles défaillances dans l'OCR.
+Ensuite, les articles sont convertits dans un format que Iramuteq 
+peut comprendre.
 
-(TODO: Romain Iramuteq)
---> Dendogram par journal: regarder les différences
---> lister les analyses faites (tease the results)
+Dans un premier temps nous produisons des graphiques d'analyses de 
+similitudes pour les deux journaux:
+#### Analyses de similitudes dans la Gazette de Lausanne
+![SimilitudesGdL](similitudeGdL.png)
+#### Analyses de similitudes dans le Journal de Genève
+![SimilitudesGdL](similitudeJdG.png)
+
+Afin de rendre les visuels utilisables on affiche ici que les 40 mots 
+(autres que préposition et déterminants), de la même façon seuls les termes 
+qui apparaissent plus de 50 fois ensemble sont montrés.
+
+En suite, toujours dans un esprit de comparaison des journaux, nous produisons 2 dendrogrammes sur les journaux.
+#### Dendrogramme de la Gazette de Lausanne
+![DandeogramGdl](DandeogramGdL.PNG)
+#### Dendrogramme du Journal de Genève
+![DandeogramJdG](DandeogramJdG.PNG)
+
+Après ses 2 étapes on perçois déjà de larges différences entre les deux journaux.
 
 ## Critique et difficultées
+Dans notre travail nous avons toutefois rencontré un certain nombre de difficultés.
 
-- OCR de mauvaise qualité
-- pas de noms d'auteurs pour les articles avant 1960
-- pas de liste d'auteurs sur Internet de la _GDL_
+Le premier problème étant l'OCR de qualité très variable. En effet dans les journaux plus anciens
+on observe un nombre d'erreur beaucoup plus élevé dans l'interprétation. Nous sommes particulièrement
+impacté par ces problèmes car les termes que nous tentons d'isoler sont plutôt long et avoir une erreur
+de reconnaissance est bien plus probable.
+
+Un autre problème est apparu pendant la recherche des méta-données. Le format de reconnaissance
+des articles est assez limité, il a fallu que nous allions chercher le nom des auteurs manuellement,
+cependant nous avons observé que mettre le nom de l'auteur sur un article de journal ne deviens
+courant qu'à partir des années 60, limitant nos capacité d'analyse avant cette période.
+
+Nous avons réussi à contourner ce problème en utilisant une liste de noms de journalistes 
+ayant travaillé pour le Journal de Genève. Cependant nous ne trouvons pas de telle liste
+pour la Gazette de Lausanne.
