@@ -124,20 +124,23 @@ journaux.
 
 ![Graphe de similitudes du _JDG_ (gauche) et de la _GDL_ (droite)](similitude.png){ width=90% }
 
-Afin de rendre les visuels utilisables, nous affichons ici seulement 40 mots
-(autres que prépositions et déterminants), de la même façon seuls les termes
-qui apparaissent plus de 50 fois ensemble sont montrés.
+En regardant le résultat on voit que les mots qui apparaissent souvent avec "secret bancaire" dans les textes de la
+_GDL_ et du _JDG_ sont différents. Pour la _GDL_ on voit des mots tel que "affaire" qui
+apparaissent et qu'on ne voit pas dans le résultat avec le _JDG_.
 
-Ensuite, toujours dans un esprit de comparaison des journaux, nous produisons
-deux dendrogrammes sur les journaux.
+Afin de rendre les visuels utilisables, nous affichons ici seulement 40 mots
+(autres que préposition et déterminants). Afin de ne pas surcharger l'image seuls les termes
+qui apparaissent plus de 50 fois ensemble sont montrés reliés dans le graphe.
+
+En suite, toujours dans un esprit de comparaison des journaux, nous produisons 2 dendrogrammes sur les journaux.
 
 ![Dendrogramme du _JDG_ (gauche) et de la _GDL_ (droite)](dendrogram.png){ width=90% }
 
 Cela nous permet de comparer le langage utilisé dans les deux journaux, nous
-voyons ici qu'un journal a été organisé en quatre clusters et l'autre en cinq,
+voyons qu'un journal a été organisé en quatre clusters et l'autre en cinq,
 montrant une divergence dans la façon d'aborder le sujet. Les champs lexicaux
-sont proches mais cela nous n'apporte encore rien sur le contexte de
-l'utilisation des mots.
+sont proches mais cela nous n'apporte encore rien sur le contexte d'utilisation
+des mots.
 
 En poussant cette idée plus loin, nous obtenons les graphes suivants.
 
@@ -145,7 +148,7 @@ En poussant cette idée plus loin, nous obtenons les graphes suivants.
 
 Cette visualisation nous présente les distances entre des mots dans le texte, et
 nous permet de voir qu'entre les deux journaux le vocabulaire employé est plus
-mixé dans la gazette de Lausanne.
+variable dans la gazette de Lausanne.
 
 Avec ces informations, nous pouvons déjà observer que le style d'écriture des
 articles est différent. Nous observons par exemple que la _GDL_ semble mettre
