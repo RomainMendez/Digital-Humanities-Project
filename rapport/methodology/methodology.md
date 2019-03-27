@@ -145,9 +145,7 @@ une divergence dans la façon d'aborder le sujet. Les champs lexicaux sont
 proches mais cela nous n'apporte encore rien sur le contexte d'utilisation des
 mots.
 
-En poussant cette idée plus loin, nous obtenons les graphes suivants.
-
-![AFC du _JDG_ (gauche) et de la _GDL_ (droite)](AFC2DL.png)
+En poussant cette idée plus loin, nous obtenons les graphes AFC.
 
 Cette visualisation nous présente les distances entre des mots dans le texte, et
 nous permet de voir qu'entre les deux journaux le vocabulaire employé est plus
@@ -158,6 +156,7 @@ articles est différent. Nous observons par exemple que la _GDL_ semble mettre
 ensemble des articles qui parlent de secret bancaire avec des articles qui
 parlent d'affaires judiciaires (avec les mots "secret", "bancaire" proche du mot
 "judiciaire").
+
 
 ## Critique et difficultées
 
@@ -174,3 +173,7 @@ d'analyse avant cette période.
 Nous avons réussi à contourner ce problème en utilisant une liste de noms de
 journalistes ayant travaillé pour le _JDG_. Cependant nous ne trouvons pas de
 telle liste pour la _GDL_.
+
+![AFC de la Gazette de Lausanne](AFC2DL_GDL.png){ width=80% }
+
+![AFC du journal de Genève](AFC2DL_JDG.png){ width=80% }
