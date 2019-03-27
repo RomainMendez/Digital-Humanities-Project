@@ -48,27 +48,25 @@ N-Gram dans le temps, pour les articles contant "secret bancaire" par année.
 Ensuite, nous comparons la longueur d'un article sur le secret bancaire aux
 articles génériques du corpus financier. Nous pouvons constater en regardant
 l'histogramme suivant que les articles sur le secret bancaire, dans les deux
-journaux, sont en général un peu plus longs que les articles de finance
-génériques.
+journaux, sont en général un peu plus longs.
 
-![Distribution de la longueur des articles](article_lengths.png){ width=70% }
+![Distribution de la longueur des articles](article_lengths.png){ width=60% }
 
 Nous examinons aussi, à l'aide d'un histogramme de la page de l'article, la
-distribution des position des articles sur le secret bancaire. Pour mieux
+distribution de la position des articles sur le secret bancaire. Pour mieux
 interpréter les résultats de cette analyse, nous trouvons la longueur du journal
 pour chaque date et calculons ainsi la position relative de l'article dans le
 journal. Nous cherchons enfin à voir si des rubriques spécialisées traitent le
 sujet, en examinant des nuages de points corrélants la date et la page des
 articles en question. Des ligne horizontales isolées constituerait un indice
-d'une rubrique permanente qui traite le sujet à une page spécifique.
+d'une rubrique permanente.
 
-![Nuage de point de page de l'article dans le temps sur les deux journaux](scatter.png){ width=50% }
+![Nuage de points de la page des articles dans le temps](scatter.png){ width=50% }
 
 En comparant le nombre d'article en première page, nous constatons que la
 fréquence d'une première page pour un article sur le secret bancaire est de 5%
-dans la _GDL_ et 6% dans le _JDG_. En comparaison, la fréquence d'une première
-page pour un article générique financier est de 2% pour la _GDL_ et 3% pour la
-_JDG_.
+dans la _GDL_ et 6% dans le _JDG_. Alors que la fréquence d'une première page
+pour un article générique financier est de 2% pour la _GDL_ et 3% pour la _JDG_.
 
 ## Analyse des auteurs
 
@@ -85,32 +83,28 @@ rédaction. Nous classifions les articles des agences suivantes:
 - Reuters
 - AP: Associated press
 
-En comptant tous les articles qui sont issu d'une agence dans le corpus
-financier et dans le sous-corpus "secret bancaire", nous trouvons que pour les
-articles du secret bancaire le taux d'articles issus d'agences et 10\% plus haut
-que dans le corpus financier.
+Ainsi nous trouvons que pour les articles du secret bancaire le taux d'articles
+issus d'agences et 10\% plus haut que dans le corpus financier.
 
 #### Journalistes
 
-Même si l'auteur d'un article n'est pas toujours indiqué – surtout dans la
-première moitié du siècle – nous arrivons à extraire des données sur les
-journalistes. Au moyen d'une liste de noms d'auteurs[^2] et des initiales qui
-sont utilisé pour signer un article, nous pouvons attribuer des auteurs à plus
-que 2600 articles. Le graphe en-bas montre leurs distribution dans le temps.
+Même si l'auteur n'est pas toujours indiqué – surtout dans la première moitié du
+siècle – nous arrivons à extraire des données sur les journalistes. Au moyen
+d'une liste de noms d'auteurs[^2] et des initiales à la fin de l'article, nous
+pouvons attribuer des auteurs à plus que 2600 articles.
 
 ![Articles avec auteur attribué](author_attributed.png){ width=60% }
 
-Cette attribution nous permet de tenter de répondre aux questions suivantes:
-Est-ce un journaliste est actif dans le deux journaux en même temps? Est-ce
-qu'il écrit en moyenne plus souvent sur le secret bancaire que sur d'autres
-sujets? De quand à quand est-il actif?
+Cette attribution nous permet de poser les questions suivantes: Est-ce un
+journaliste est actif dans le deux journaux en même temps? Est-ce qu'il écrit en
+moyenne plus souvent sur le secret bancaire que sur d'autres sujets?
 
-Comme exemple, voici les trois auteurs du _JDG_ qui ont écrit le plus sur le
-secret bancaire: Jean-Luc Lederrey (41 articles), Jacques-Simon Eggly (29
-articles) et Sylvie Arsever (18 articles). Les deux en premiers sont aussi très
-actifs dans la _GDL_ et cela même avant la fusion des rédactions en 1991. En
-plus, une recherche LinkedIn ou Wikipédia révèle que les deux étaient actifs
-dans le monde banquier[^3] ou dans la politique libérale[^4].
+Comme exemple, nous voyons que les deux auteurs du _JDG_ qui ont écrit le plus
+sur le secret bancaire sont Jean-Luc Lederrey (41 articles) et Jacques-Simon
+Eggly (29 articles). Les deux sont aussi  actifs dans la _GDL_ et cela même
+avant la fusion des rédactions en 1991. En plus, une recherche LinkedIn ou
+Wikipédia révèle que les deux travaillaient aussi dans le monde banquier[^3] ou
+dans la politique libérale[^4].
 
 [^2]: Cette liste était obtenue de la page [Wikipédia du _Journal de
 Genève_](https://fr.wikipedia.org/wiki/Journal_de_Gen%C3%A8ve).
