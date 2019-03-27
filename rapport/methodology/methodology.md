@@ -122,19 +122,17 @@ L'analyse de contenu se limite au corpus "secret bancaire". Dans un premier
 temps nous produisons des graphiques d'analyses de similitudes pour les deux
 journaux:
 
---> expliquer ce que tu fais
-
-#### Analyses de similitudes dans la Gazette de Lausanne
 ![Graph de similitudes dans la Gazette de Lausanne](similitudeGdL.png){ width=50% }
 
-#### Analyses de similitudes dans le Journal de Genève
 ![Graph de similitudes du Journal de Genève](similitudeJdG.png){ width=50% }
 
---> expliquer ce qu'on voit
+En regardant le résultat on voit que les mots qui apparaissent souvent avec secret bancaire dans les textes de la
+Gazette de Lausanne et du Journal de Genève sont différents, à la Gazette de Lausanne on voit des mots tel que affaire qui 
+apparaissent et qu'on ne voit pas dans le résultat avec le Journal de Genève.
 
 Afin de rendre les visuels utilisables, nous affichons ici seulement les 40 mots
-(autres que préposition et déterminants), de la même façon seuls les termes
-qui apparaissent plus de 50 fois ensemble sont montrés.
+(autres que préposition et déterminants), afin de ne pas surcharger l'image seuls les termes
+qui apparaissent plus de 50 fois ensemble sont montrés reliés dans le graph.
 
 En suite, toujours dans un esprit de comparaison des journaux, nous produisons 2 dendrogrammes sur les journaux.
 
@@ -144,10 +142,10 @@ En suite, toujours dans un esprit de comparaison des journaux, nous produisons 2
 #### Dendrogramme du Journal de Genève
 ![Dendrogramme du Journal de Genève](DandeogramJdG.PNG){ width=50% }
 
-Cela nous permet de comparer le langage utilisé dans les 2 journaux, 
-nous voyons ici qu'un journal a été organisé en 4 clusters et l'autre 
-en 5, montrant une divergence dans la façon d'aborder le sujet entre
-les 2 journaux. Les champs lexicaux sont proches mais cela nous apporte
+Cela nous permet de comparer le langage utilisé dans les deux journaux, 
+nous voyons ici qu'un journal a été organisé en quatre clusters et l'autre 
+en cinq, montrant une divergence dans la façon d'aborder le sujet entre
+les deux journaux. Les champs lexicaux sont proches mais cela nous apporte
 encore rien sur le contexte d'utilisation des mots.
 
 En poussant cette idée plus loin, nous obtenons les graphs suivants.
@@ -156,7 +154,7 @@ En poussant cette idée plus loin, nous obtenons les graphs suivants.
 ![AFC du journal de Genève](AFC2DL_JDG.png)
 
 Cette visualisation nous représente les distances entre des mots dans le 
-texte, et nous permet de voir que entre les 2 journaux le vocabulaire 
+texte, et nous permet de voir que entre les deux journaux le vocabulaire 
 employé est plus mixé dans la gazette de Lausanne.
 
 Avec ces informations présente on peut déjà observer que le style d'écriture des articles
