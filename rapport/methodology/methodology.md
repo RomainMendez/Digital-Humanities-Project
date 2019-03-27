@@ -32,7 +32,6 @@ seul môt clés _secret bancaire_, contennant environs 1700 articles.  De cette
 façon, nous pouvons détérminer si une certaine tendence de ce corpus est
 vraiment signifiante, ou si elle est propre de tout le corpus financier.
 
-
 ## Statistiques de base
 
 Pour nous approcher à l'analyse des articles, nous commençons en calculant et
@@ -64,12 +63,6 @@ page spécifique.
 
 ![Nuage de point de page de l'article dans le temps sur les deux journaux](scatter.png){ width=60% }
 
-En comparant le numéros d'article en première page, nous constatons que nous
-trouvons 44 articles de premières pages sur le secret bancaire dans la _Gazette
-de Lausanne_, contre 56 dans le _Journal de Genève_. La fréquence d'une
-première page pour un article sur le secret bancaire est de 5% dans la _GDL_ et
-6% dans le _JDG_. En comparaison, la fréquence d'une première page pour un
-article générique finacier est de 2% pour la _GDL_ et 3% pour la _JDG_.
 
 ## Analyse du contexte
 
@@ -111,16 +104,6 @@ Est-ce un journaliste est actif dans le deux journaux en même temps? Est-ce
 qu'il écrit en moyenne plus souvent sur le sujet du secret bancaire que sur
 d'autres sujets? De quand à quand est-il actif?
 
-Comme exemple, voici les trois auteurs du _JDG_ qui ont écrit le plus sur le
-secret bancaire: Jean-Luc Lederrey (41 articles), Jacques-Simon Eggly (29
-articles) et Sylvie Arsever (18 articles). Ce qui  est intéressant est que les
-deux en premiers sont aussi très actifs dans la _GDL_ et cela même avant la
-fusion des rédactions en 1991. Jean-Luc Lederrey a publié 35 articles dans la
-_GDL_ avant 1991 et Jacques-Simon Eggly 28 articles. En plus, une recherche
-LinkedIn ou Wikipédia révèle que les deux étaient actifs dans le monde banquier[^3]
-ou dans la politique libérale[^4].
-
-
 [^2]: Cette liste était obtenue de la page [Wikipédia du _Journal de
 Genève_](https://fr.wikipedia.org/wiki/Journal_de_Gen%C3%A8ve).
 
@@ -133,9 +116,7 @@ Wikipédia](https://fr.wikipedia.org/wiki/Jacques-Simon_Eggly).
 
 ## Analyse du contenu
 
-En isolant les articles utilisant les termes "secret bancaire", 
-"secrets bancaires", "secret bancaires" et "secrets bancaires"
-afin de pallier à de potentielles défaillances dans l'OCR.
+L'analyse de contenu se limitera aux articles avec `secret bancaire` dedans.
 Ensuite, les articles sont convertits dans un format que Iramuteq 
 peut comprendre.
 
@@ -159,14 +140,8 @@ En suite, toujours dans un esprit de comparaison des journaux, nous produisons 2
 Après ses 2 étapes on perçois déjà de larges différences entre les deux journaux.
 
 ## Critique et difficultées
-Dans notre travail nous avons toutefois rencontré un certain nombre de difficultés.
 
-Le premier problème étant l'OCR de qualité très variable. En effet dans les journaux plus anciens
-on observe un nombre d'erreur beaucoup plus élevé dans l'interprétation. Nous sommes particulièrement
-impacté par ces problèmes car les termes que nous tentons d'isoler sont plutôt long et avoir une erreur
-de reconnaissance est bien plus probable.
-
-Un autre problème est apparu pendant la recherche des méta-données. Le format de reconnaissance
+Un problème est apparu pendant la recherche des méta-données. Le format de reconnaissance
 des articles est assez limité, il a fallu que nous allions chercher le nom des auteurs manuellement,
 cependant nous avons observé que mettre le nom de l'auteur sur un article de journal ne deviens
 courant qu'à partir des années 60, limitant nos capacité d'analyse avant cette période.
