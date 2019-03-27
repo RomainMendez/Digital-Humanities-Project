@@ -86,6 +86,8 @@ rédaction. Nous classifions les articles des agences suivantes:
 Ainsi nous trouvons que pour les articles du secret bancaire le taux d'articles
 issus d'agences et 10\% plus haut que dans le corpus financier.
 
+\newpage
+
 #### Journalistes
 
 Même si l'auteur n'est pas toujours indiqué – surtout dans la première moitié du
@@ -95,7 +97,7 @@ pouvons attribuer des auteurs à plus que 2600 articles.
 
 ![Articles avec auteur attribué](author_attributed.png){ width=60% }
 
-Cette attribution nous permet de poser les questions suivantes: Est-ce un
+Cette attribution nous permet de poser les questions suivantes: Est-ce qu'un
 journaliste est actif dans le deux journaux en même temps? Est-ce qu'il écrit en
 moyenne plus souvent sur le secret bancaire que sur d'autres sujets?
 
@@ -130,7 +132,7 @@ la _GDL_ on voit des mots tel que "affaire" qui apparaissent et qu'on ne voit
 pas dans le résultat avec le _JDG_.
 
 Afin de rendre les visuels utilisables, nous affichons ici seulement 40 mots
-(autres que préposition et déterminants). Afin de ne pas surcharger l'image
+(autres que préposition et déterminants). Afin de ne pas surcharger l'image,
 seuls les termes qui apparaissent plus de 50 fois ensemble sont montrés reliés
 dans le graphe.
 
@@ -161,8 +163,8 @@ parlent d'affaires judiciaires (avec les mots "secret", "bancaire" proche du mot
 ## Critique et difficultées
 
 Notre analyse est particulièrement perturbée par les problèmes de l'OCR de basse
-qualité. Car, les termes que nous tentons d'isoler sont plutôt long une erreur
-de reconnaissance est bien plus probable.
+qualité. Car, les termes que nous tentons d'isoler sont plutôt long et une
+erreur de reconnaissance est bien plus probable.
 
 Un autre problème est que le format de reconnaissance des articles est assez
 limité. Il a fallu que nous allions chercher le nom des auteurs manuellement,
@@ -171,8 +173,8 @@ journal ne devient courant qu'à partir des années 60, limitant nos capacité
 d'analyse avant cette période.
 
 Nous avons réussi à contourner ce problème en utilisant une liste de noms de
-journalistes ayant travaillé pour le _JDG_. Cependant nous ne trouvons pas de
-telle liste pour la _GDL_.
+journalistes ayant travaillé pour le _JDG_. Cependant nous n'avons pas trouvé
+une telle liste pour la _GDL_.
 
 ![AFC de la Gazette de Lausanne](AFC2DL_GDL.png){ width=80% }
 
