@@ -1,5 +1,3 @@
-## Tidbits
-
 ## Intérêt du sujet
 - Peu d'intérêt intérieur aux rédactions sur le sujet avant les années 1980
   - Résultats des événements politiques majeurs (surtout pression extérieure)
