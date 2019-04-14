@@ -1,5 +1,5 @@
 
-REPORTS = methodology
+REPORTS = methodology analysis
 FOLDERS = $(addsuffix /, $(REPORTS))
 PDFS = $(join $(FOLDERS), $(addsuffix .pdf, $(REPORTS)))
 

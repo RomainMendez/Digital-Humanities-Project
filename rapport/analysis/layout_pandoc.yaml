@@ -1,0 +1,19 @@
+---
+subparagraphs: true
+pagesize: a4
+fontsize: 12pt
+documentclass: article
+urlcolor: NavyBlue
+geometry: a4paper
+geometry: top=2.5cm, textheight=23cm, textwidth=17cm, footskip=1cm, headsep=1cm
+header-includes: \usepackage{fancyhdr}
+                    \pagestyle{fancy}
+                    \fancyhf{}
+                    \lhead{\fontsize{10pt}{12pt}\selectfont Le secret bancaire suisse au XXe siècle dans le
+                    \textit{Journal de Genève} et la \textit{Gazette de Lausanne}}
+                    \rhead{}
+                    \rfoot{\fontsize{10pt}{12pt}\selectfont \thepage}
+                    \lfoot{\textit{\fontsize{10pt}{12pt}\selectfont Yann Bolliger, Pietro Carta et Romain Mendez}}
+                    \usepackage[bottom]{footmisc}
+                    \usepackage[french]{babel}
+---
