@@ -22,13 +22,6 @@ Faire des chi^2-tests pour les classes des dendrogrammes
   - aussi normalisé
   - peak dans GDL ?!
 
-### Analyse des auteurs
-
-- plus d'agences dans secret bancaire
-- extrait 900 auteurs
-  - les plus actifs: dans le monde financier ou la politique libérale
-  - après ~1970: auteurs actifs dans les deux journaux (aussi avant 1991)
-
 ### Analyse du contenu
 
 - Irametequerie entre en jeux
