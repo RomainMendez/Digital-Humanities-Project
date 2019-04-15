@@ -3,10 +3,16 @@
 
 ### Intérêt apporté au sujet du _secret bancaire_
 
+Le sujet du secret bancaire à suscité une centaines de premières pages au sein
+des deux journaux de 1940 jusque à la fin des années 90s. Ce chiffre rélativement
+petit nous permets de lire les premières pages pour mieu contextualiser une
+analyse quantitatives des auteurs et des sources de dépêches.
+
 De manière générale et excluant l'année 1984 de l'initiative populaire au même
 sujet, le secret bancaire n'est pas un sujet très important dans le corpus
 financier des deux journaux. Le sous-corpus "secret bancaire" ne constitue que
-5% des articles du corpus financier. Il est remarquable que dans le sous-corpus
+5% des articles du corpus financier, qui lui-même ne contient que une petite
+partie de tous les articles financiers. Il est remarquable que dans le sous-corpus
 la proportion d'articles qui proviennent d'agences de presse et de dix pour-cent
 plus élevé que dans le corpus financier (29% pour "secret bancaire", 18% pour
 financier). Cela montre que le sujet a moins d'importance pour les rédactions,
