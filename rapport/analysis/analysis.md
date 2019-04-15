@@ -44,9 +44,18 @@ Les auteurs traitent surtout l'initiative, ils sont dans des milieux financiers 
 
 
 ### Comparaison des deux journaux
+En isolant les articles contenant “secret bancaire”, nous avons auparavant isolé les articles en différents groupes avec la méthode de Reinert. La première chose que nous remarquons c’est qu’entre les deux journaux on obtient des groupes différents. 
+Afin de mieux comprendre comment les articles sont classés nous avons aussi effectué des Chi²-tests sur des mots-clés.
+Par exemple dans le Journal de Genève, nous pouvons voir que le terme “bcv” va éloigner un article du groupe contenant les termes plus généralement associé aux banques.
+![\label{percentage} Chi²-Test du terme "bcv" dans le journal de Genève.](chibcv.png){ width=90% }
 
-(surtout portée sur la langue -> Romain)
+D’autres tests similaires pointent vers d’autres division, ou les articles utilisants des termes juridiques et/ou techniques précis (comme “banquaire”, “fraude”, “autorité”) vont concentrer les articles dans une même classe.Évoquant des articles ne faisant que relater des faits ou qui va juste relater les faits. Mais on voit aussi que les termes qui ramènent au nom des banques sont dissociés des groupes parlant de l’actualité du secret bancaire à l’époque étudiée.
 
+Du côté dans la Gazette de Lausanne, on trouve 6 groupes qui se forment. Là ou le Journal de Genève semble avoir des classes qui sont basée sur des sujets différents (économie, affaires judiciaires, légal) . Dans la Gazette de Lausanne il semble que les événements marquants de la période génèrent plus d’attentions, car on retrouve une classe avec des mots rappelant des affaires judiciaires. Dans cette classe on retrouve des termes tels que “renseignement”, “tribunal”, “violer” .. Cela semble indiquer que les différents scandals ou affaires judiciaires entourant le secret bancaire sont perçues comme plus importante dans la Gazette de Lausanne que le Journal de Genève.
+Cependant ici, comme dans le Journal de Genève le nom des banques suisse apparaît plutôt dans le groupe d’articles référençant des termes financiers plus généraux (avec les noms de devises, des quantités)
+![\label{percentage} Chi²-Test du terme "ubs" dans la Gazette de Lausanne.](ubs_chisquare_gdl.png){ width=90% }
+
+Tout ceci semble indiquer que, même si l’emphase apportée sur les différents événements entourant l’histoire du secret bancaire au XXe siècle est différentes entre les deux journaux, les deux semblent aussi dissocier les banques du sujet même du secret bancaire.
 ### Conclusions
 
 messages principaux de la partie de Yann:
