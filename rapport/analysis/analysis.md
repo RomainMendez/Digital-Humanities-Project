@@ -10,7 +10,15 @@
 
 La presse française (AFP) ne traite pas tellement l'initiative mais les suisses oui.
 
-La presse française a des peaks à: 1973, 1975, 1981, 1989, 1990.
+La presse française a des peaks à:
+- 1972 – 77 bcp de noise, mais quand même:
+  - investigations francaises
+  - traité americo-suisse
+  - critique de l'algérie
+
+- 1986 – 92:
+  - on voit les scandales
+
 
 Les auteurs traitent surtout l'initiative, ils sont dans des milieux financiers.
 
