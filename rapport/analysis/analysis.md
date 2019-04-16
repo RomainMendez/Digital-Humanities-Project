@@ -44,13 +44,13 @@ sont minimisé pour qu'ils ne détournent pas l'attention des lecteurs.
 Dès la lecture des première pages, on peut trouver le suivant
  ensemble de périodes principales dans l'histoire du secret bancaire:
 
-- 1940--45: le secret bancaire est menacé des l'interieur par le gouvernement,
-    à cause de l'économie de guerre, et des l'exterieur par les futures nations
+- 1940--45: le secret bancaire est menacé de l'intérieur par le gouvernement,
+    à cause de l'économie de guerre, et de l'extérieur par les futures nations
     unies, qui désirent l'entraide judiciaire et fiscal
 - 1946--65: période de calme où aucune attaque organique est montée contre le
     secret bancaire. Quelque frictions avec la France se résolvent en une impasse.
 - 1966--70: tension et effort diplomatique avec les États-Unis, qui critiquent
-    durement le secret bancaire qui leur empêche d’investiguer efficacement
+    durement le secret bancaire qui leur empêche d’enquêter efficacement
     la criminalité organisé. La question se resout avec des accords bilatéraux
     qui concèdent très peu à la justice américaine.
 - 1975--84: tumultes intérieurs vis au secret bancaire. L'économie en récession
@@ -59,12 +59,12 @@ Dès la lecture des première pages, on peut trouver le suivant
     débat intérieur continue jusqu'à 1984, quand l'initiative socialiste contre
     le secret bancaire est repoussée.
 - 1987--89: pressions américaines poussent la Suisse à approuver la levée du
-    secret bancaire dans les cas de manipulations des marchée (insider trading),
+    secret bancaire dans les cas de manipulations des marchés (insider trading),
     délit qui n'était pas persécuté en Suisse jusqu’alors.
 - 1996--suite: Affaire des fonds juifs en déshérence. Le conseil national vote à
     l'unanimité pour la levée du secret bancaire pour la commission Bergier.
 
-Surtout est intéressante la tonalité du discour dans les deux journaux au cours
+Surtout est intéressante la tonalité du discours dans les deux journaux au cours
 de ces périodes. Dans les première période, le ton est positif et tranquil.
 En 1975 le ton change repentinement:
 des articles écrits par Marian Stepcinsky, Jean-Luc Lederrey, et par le futur
@@ -93,11 +93,11 @@ exemple dans le Journal de Genève, nous pouvons voir que le terme “bcv” va
 aux banques.  ![\label{percentage} Chi²-Test du terme "bcv" dans le journal de
 Genève.](chibcv.png){ width=90% }
 
-D’autres tests similaires pointent vers d’autres division, ou les articles
+D’autres tests similaires pointent vers d’autres division, où les articles
 utilisants des termes juridiques et/ou techniques précis (comme “bancaire”,
 “fraude”, “autorité”) vont concentrer les articles dans une même
-classe.Évoquant des articles ne faisant que relater des faits ou qui va juste
-relater les faits. Mais on voit aussi que les termes qui ramènent au nom des
+classe.Évoquant des articles ne faisant que relater des faits. 
+Mais on voit aussi que les termes qui ramènent au nom des
 banques sont dissociés des groupes parlant de l’actualité du secret bancaire à
 l’époque étudiée.
 
