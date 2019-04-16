@@ -66,7 +66,7 @@ Dès la lecture des première pages, on peut trouver le suivant
 
 Surtout est intéressante la tonalité du discours dans les deux journaux au cours
 de ces périodes. Dans les première période, le ton est positif et tranquil.
-En 1975 le ton change repentinement:
+En 1975 le ton change rapidement:
 des articles écrits par Marian Stepcinsky, Jean-Luc Lederrey, et par le futur
 politicien libéral Jacques Simon Eggly gagnent souvent la première page. Ces
 articles sont des pièce d'opinion, souvent virulent, où les lecteur sont rappelé aux avantages du
