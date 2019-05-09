@@ -117,7 +117,8 @@ tels que “renseignement”, “tribunal”, “violer”... Cela semble indiqu
 différents scandales ou affaires judiciaires entourant le secret bancaire sont
 perçues comme plus importants dans la _GDL_ que le _JDG_.  Cependant, ici comme
 dans le _JDG_ le nom des banques suisse apparaît plutôt dans le groupe
-d’articles référençant des termes financiers plus généraux (avec les noms de
+d’articles référençant des termes financiers plus généraux, la classe 3, qui 
+est très similaire à la classe 3 dans l'analyse du _JDG_ (avec les noms de
 devises, des quantités)
 
 ![\label{percentage} Chi²-Test du terme "ubs" dans la
