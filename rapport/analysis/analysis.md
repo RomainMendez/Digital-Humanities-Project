@@ -88,10 +88,11 @@ isolé les articles en différents groupes avec la méthode de Reinert. La
 première chose que nous remarquons c’est qu’entre les deux journaux on obtient
 des groupes différents.  Afin de mieux comprendre comment les articles sont
 classés nous avons aussi effectué des Chi²-tests sur des mots-clés.  Par
-exemple dans le Journal de Genève, nous pouvons voir que le terme “bcv” va
-éloigner un article du groupe contenant les termes plus généralement associé
-aux banques.  ![\label{percentage} Chi²-Test du terme "bcv" dans le journal de
-Genève.](chibcv.png){ width=90% }
+exemple dans le Journal de Genève, nous pouvons voir que le terme “ubs” va
+éloigner l'article du groupe contenant les termes plus proches su dujet.
+Comme "secret", "convention", "droit", "judiciaire".
+  ![\label{percentage} Chi²-Test du terme "ubs" dans le journal de
+Genève.](chiubs.png){ width=90% }
 
 D’autres tests similaires pointent vers d’autres division, ou les articles
 utilisants des termes juridiques et/ou techniques précis (comme “bancaire”,
@@ -122,7 +123,7 @@ banques du sujet même du secret bancaire.
 
 ### Conclusions
 
-Cette analyse du sujet, quoique de niche, évidence clairement l'adhésion des
+Cette analyse du sujet, quoique de niche, montre clairement l'adhésion des
 deux rédactions à la politique libérale. L'absence de dépêches étrangères,
 surtout centrés sur le scandales, pendant la période de l'initiative peut ètre
 considéré une preuve du role politique des deux journaux.
