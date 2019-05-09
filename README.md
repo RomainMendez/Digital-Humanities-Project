@@ -17,9 +17,3 @@ américaines ? »)
 La bibliographie devrait être nettoyée. Par ex : premier titre sans guillemets
 et italique manquant sur le titre de l’ouvrage, ou encore référence
 incomplète en ce qui concerne la toute dernière (mentionner le DHS).
-
-
-### Plus d'idées
-
-  - Quelles publicités ? Pubs payées par des banques ? (Je parle de l'espèce de
-  rubrique financière par exemple.) --> mentionner impossible
