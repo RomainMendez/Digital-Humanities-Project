@@ -15,8 +15,13 @@ financier des deux journaux. Le sous-corpus "secret bancaire" ne constitue que
 partie de tous les articles. Il est remarquable que dans le sous-corpus la
 proportion d'articles qui proviennent d'agences de presse est de dix pour-cent
 plus élevée que dans le corpus financier (29% pour le "secret bancaire", 18%
-pour le financier). Cela montre que le sujet a moins d'importance pour les
-rédactions, qui utilisent souvent que des dépêches pour en parler.
+pour le financier). Cela pourrait ètre justifié par l'hypothèse
+ que le sujet a peu d'importance pour les
+rédactions, qui utilisent souvent que des dépêches pour en parler. Comme montré
+par les examples rapportés dans le collage \ref{depeches}, le dépéches parlent
+surtout de cas judiciaire et petit scandales.
+
+![\label{depeches} Example de dépèches, Suisse et étrangères](agencies_collage.png){ width=90% }
 
 Pour cerner l'origine de cet intérêt, nous comparons la fraction de dépêches
 venant de l'étranger à celles de l'Agence télégraphique suisse (ATS). La figure
@@ -24,7 +29,8 @@ venant de l'étranger à celles de l'Agence télégraphique suisse (ATS). La fig
 cours du temps. Nous trouvons deux périodes où les dépêches étrangères ont une
 certaine présence: 1972 -- 1977 et 1986 -- 1992. Ce sont des périodes
 relativement calmes, où à l'intérieur de la Suisse le sujet n'est pas
-d'actualité.
+d'actualité. Les dépêches dans le collage \ref{depeches} representent bien le
+type d'article sur faits mineurs apparaissants dans cette période calme.
 
 ![\label{percentage} Distribution relative des articles d'agences de presse
 étrangères pour le "secret bancaire".](agency_percentage.png){ width=90% }
@@ -80,7 +86,11 @@ Contrairement aux périodes précédentes, où les avantages du secret bancaire 
 une véritable propagande en faveur du secret bancaire et contre les socialistes,
 et donnent de précises indications de vote dans le mois avant l'initiative.
 
-La tonalité des articles redevient enfin plus objective et s'assouplie, après
+![\label{propagande} Example d'articles partisans apparu dans la période
+de l'initiative.](propaganda_collage.png){ width=90% }
+
+
+La tonalité des articles redevient enfin plus descriptive et s'assouplie, après
 que l'initiative soit rejeté. Les lois sur la manipulation des marchés et la
 commission Bergier ne sont pas perçus comme menace essentielles à la stabilité
 de la place financière.
