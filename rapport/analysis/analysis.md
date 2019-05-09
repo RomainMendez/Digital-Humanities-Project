@@ -95,7 +95,10 @@ des groupes différents.  Afin de mieux comprendre comment les articles sont
 classés nous avons aussi effectué des Chi²-tests sur des mots-clés.  Par
 exemple dans le Journal de Genève, nous pouvons voir que le terme “ubs” va
 éloigner l'article du groupe contenant les termes plus proches su dujet.
-Comme "secret", "convention", "droit", "judiciaire".
+Comme "secret", "convention", "droit", "judiciaire" qu'on voit dans la classe
+ 1 du dendrogramme (voir partie méthodologie). Et pousser l'article fortement
+ vers le groupe 3 qui contient des termes assez descriptifs (sur les intérêts, 
+les devises ...)
   ![\label{percentage} Chi²-Test du terme "ubs" dans le journal de
 Genève.](chiubs.png){ width=90% }
 
