@@ -1,4 +1,4 @@
-# Méthodologie
+## Méthodologie
 
 Notre idée centrale est de porter l’analyse sur la différence entre les deux
 journaux et leur évolution dans le temps. La méthodologie détaillée ici est donc
@@ -7,7 +7,7 @@ suivante:
 
 ![Organisation et outils de l'analyse.](methods.png){ width=70% }
 
-## Pre-processing
+### Pre-processing
 
 Pour l'explorer de manière plus rapide, nous devons réduire le corpus de base
 qui se constitue des articles de la _Gazette de Lausanne_ (_GDL_) et du _Journal
@@ -37,7 +37,7 @@ environ 1700 articles. De cette façon, nous pouvons déterminer si une certaine
 tendance de ce corpus est vraiment signifiante, ou si elle apparaît dans tout le
 corpus financier.
 
-## Statistiques de base
+### Statistiques de base
 
 Nous commençons en calculant certaines statistiques de base, telles que le
 numéro de page, la longueur et la date d'un article.  Nous reproduisons donc le
@@ -68,7 +68,7 @@ fréquence d'une première page pour un article sur le secret bancaire est de 5%
 dans la _GDL_ et 6% dans le _JDG_. Alors que la fréquence d'une première page
 pour un article générique financier est de 2% pour la _GDL_ et 3% pour la _JDG_.
 
-## Analyse des auteurs
+### Analyse des auteurs
 
 La méta-donnée la plus importante après la date qui est traitée en haut est
 l'auteur d'un article. Nous analysons deux catégories d'auteurs.
@@ -118,7 +118,7 @@ LinkedIn](https://ch.linkedin.com/in/lederrey-jean-luc-1456b717).
 Wikipédia](https://fr.wikipedia.org/wiki/Jacques-Simon_Eggly).
 
 
-## Analyse du contenu
+### Analyse du contenu
 
 L'analyse de contenu se limite au corpus "secret bancaire". Dans un premier
 temps nous produisons des graphiques d'analyses de similitudes pour les deux
@@ -160,7 +160,7 @@ parlent d'affaires judiciaires (avec les mots "secret", "bancaire" proche du mot
 "judiciaire").
 
 
-## Critique et difficultées
+### Critique et difficultées
 
 Notre analyse est particulièrement perturbée par les problèmes de l'OCR de basse
 qualité. Car, les termes que nous tentons d'isoler sont plutôt long et une

@@ -1,5 +1,5 @@
 
-# Analyse
+## Analyse
 
 ### Intérêt des journaux au sujet du _secret bancaire_
 
@@ -97,7 +97,7 @@ exemple dans le Journal de Genève, nous pouvons voir que le terme “ubs” va
 éloigner l'article du groupe contenant les termes plus proches su dujet.
 Comme "secret", "convention", "droit", "judiciaire" qu'on voit dans la classe
  1 du dendrogramme (voir partie méthodologie). Et pousser l'article fortement
- vers le groupe 3 qui contient des termes assez descriptifs (sur les intérêts, 
+ vers le groupe 3 qui contient des termes assez descriptifs (sur les intérêts,
 les devises ...)
   ![\label{percentage} Chi²-Test du terme "ubs" dans le journal de
 Genève.](chiubs.png){ width=90% }
@@ -117,7 +117,7 @@ tels que “renseignement”, “tribunal”, “violer”... Cela semble indiqu
 différents scandales ou affaires judiciaires entourant le secret bancaire sont
 perçues comme plus importants dans la _GDL_ que le _JDG_.  Cependant, ici comme
 dans le _JDG_ le nom des banques suisse apparaît plutôt dans le groupe
-d’articles référençant des termes financiers plus généraux, la classe 3, qui 
+d’articles référençant des termes financiers plus généraux, la classe 3, qui
 est très similaire à la classe 3 dans l'analyse du _JDG_ (avec les noms de
 devises, des quantités)
 
@@ -141,4 +141,3 @@ des deux journaux ne pointe jamais du doigt. Dans les deux journaux, le secret
 bancaire est abordé dans un contexte politique plutôt que financier, en
 défendant ces principes à la base plutôt qu'en montrant les inconvénients qu'il
 cause aux fiscs et aux investigateurs internationaux.
- 
