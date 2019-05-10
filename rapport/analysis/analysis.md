@@ -98,10 +98,10 @@ de la place financière.
 
 ### Comparaison des deux journaux
 
-En isolant les articles contenant “secret bancaire”, nous avons auparavant isolé
+En isolant les articles contenant "secret bancaire", nous avons auparavant isolé
 les articles en différents groupes avec la méthode de Reinert. La première chose
-que nous remarquons c’est qu’entre les deux journaux on obtient des groupes
-différents.  Afin de mieux comprendre comment les articles sont classés nous
+que nous remarquons est qu’entre les deux journaux nous obtenons des groupes
+différents. Afin de mieux comprendre comment les articles sont classés, nous
 avons aussi effectué des Chi²-tests sur des mots-clés.  Par exemple dans le
 _Journal de Genève_, nous pouvons voir que le terme "UBS" va éloigner l'article
 du groupe contenant les termes plus proches du sujet, comme "secret",
@@ -139,10 +139,11 @@ les deux semblent aussi dissocier les banques du sujet même du secret bancaire.
 
 ### Conclusions
 
-Cette analyse du sujet, quoique de niche, montre clairement l'adhésion des
-deux rédactions à la politique libérale. L'absence de dépêches étrangères,
-surtout centrés sur le scandales, pendant la période de l'initiative peut ètre
-considéré une preuve du role politique des deux journaux.
+Cette analyse du sujet évidence clairement l'adhésion des deux rédactions à la
+politique libérale. L'absence de dépêches étrangères, surtout centrées sur les
+scandales, pendant la période de l'initiative peut être considérée comme une
+preuve du rôle politique des deux journaux.
+
 
 L'analyse linguistique nous montre que la _GDL_ donne plus d'importance aux
 affaires concrètes et le _JDG_ plus au coté abstrait législatif, bien que aucun
