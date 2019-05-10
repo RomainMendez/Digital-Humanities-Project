@@ -15,24 +15,25 @@ financier des deux journaux. Le sous-corpus "secret bancaire" ne constitue que
 partie de tous les articles. Il est remarquable que dans le sous-corpus la
 proportion d'articles qui proviennent d'agences de presse est de dix pour-cent
 plus élevée que dans le corpus financier (29% pour le "secret bancaire", 18%
-pour le financier). Cela pourrait ètre justifié par l'hypothèse
- que le sujet a peu d'importance pour les
-rédactions, qui utilisent souvent que des dépêches pour en parler. Comme montré
-par les examples rapportés dans le collage \ref{depeches}, le dépéches parlent
-surtout de cas judiciaire et petit scandales.
+pour le financier). Cela pourrait être justifié par l'hypothèse que le sujet a
+peu d'importance pour les rédactions, qui n'utilisent souvent que des dépêches
+pour en parler. Comme montré par les exemples rapportés dans le collage
+\ref{depeches}, les dépêches parlent surtout de cas judiciaires et petits
+scandales.
 
-![\label{depeches} Example de dépèches, Suisse et étrangères](agencies_collage.png){ width=90% }
+![\label{depeches} Exemple de dépêches, suisses et
+étrangères.](agencies_collage.png){ width=90% }
 
 Pour cerner l'origine de cet intérêt, nous comparons la fraction de dépêches
 venant de l'étranger à celles de l'Agence télégraphique suisse (ATS). La figure
-\ref{percentage} montre comment cette fraction évolue dans le sous-corpus au
+\ref{percentage1} montre comment cette fraction évolue dans le sous-corpus au
 cours du temps. Nous trouvons deux périodes où les dépêches étrangères ont une
 certaine présence: 1972 -- 1977 et 1986 -- 1992. Ce sont des périodes
 relativement calmes, où à l'intérieur de la Suisse le sujet n'est pas
-d'actualité. Les dépêches dans le collage \ref{depeches} representent bien le
-type d'article sur faits mineurs apparaissants dans cette période calme.
+d'actualité. Les dépêches dans le collage \ref{depeches} représentent bien le
+type d'article sur des faits mineurs apparaissant dans cette période calme.
 
-![\label{percentage} Distribution relative des articles d'agences de presse
+![\label{percentage1} Distribution relative des articles d'agences de presse
 étrangères pour le "secret bancaire".](agency_percentage.png){ width=90% }
 
 La série temporelle du nombre d'articles par catégorie d'auteur (fig.
@@ -86,9 +87,8 @@ Contrairement aux périodes précédentes, où les avantages du secret bancaire 
 une véritable propagande en faveur du secret bancaire et contre les socialistes,
 et donnent de précises indications de vote dans le mois avant l'initiative.
 
-![\label{propagande} Example d'articles partisans apparu dans la période
+![\label{propagande} Exemple d'articles partisans apparus dans la période
 de l'initiative.](propaganda_collage.png){ width=90% }
-
 
 La tonalité des articles redevient enfin plus descriptive et s'assouplie, après
 que l'initiative soit rejeté. Les lois sur la manipulation des marchés et la
@@ -98,19 +98,19 @@ de la place financière.
 
 ### Comparaison des deux journaux
 
-En isolant les articles contenant “secret bancaire”, nous avons auparavant
-isolé les articles en différents groupes avec la méthode de Reinert. La
-première chose que nous remarquons c’est qu’entre les deux journaux on obtient
-des groupes différents.  Afin de mieux comprendre comment les articles sont
-classés nous avons aussi effectué des Chi²-tests sur des mots-clés.  Par
-exemple dans le Journal de Genève, nous pouvons voir que le terme “ubs” va
-éloigner l'article du groupe contenant les termes plus proches su dujet.
-Comme "secret", "convention", "droit", "judiciaire" qu'on voit dans la classe
- 1 du dendrogramme (voir partie méthodologie). Et pousser l'article fortement
- vers le groupe 3 qui contient des termes assez descriptifs (sur les intérêts,
-les devises ...)
-  ![\label{percentage} Chi²-Test du terme "ubs" dans le journal de
-Genève.](chiubs.png){ width=90% }
+En isolant les articles contenant “secret bancaire”, nous avons auparavant isolé
+les articles en différents groupes avec la méthode de Reinert. La première chose
+que nous remarquons c’est qu’entre les deux journaux on obtient des groupes
+différents.  Afin de mieux comprendre comment les articles sont classés nous
+avons aussi effectué des Chi²-tests sur des mots-clés.  Par exemple dans le
+_Journal de Genève_, nous pouvons voir que le terme "UBS" va éloigner l'article
+du groupe contenant les termes plus proches du sujet, comme "secret",
+"convention", "droit" ou "judiciaire" que l'on voit dans la première classe du
+dendrogramme (voir partie méthodologie). Et pousser l'article fortement vers le
+groupe trois qui contient des termes assez descriptifs (sur les intérêts et les
+devises).
+
+![Chi²-Test du terme "ubs" dans le journal de Genève.](chiubs.png){ width=90% }
 
 D’autres tests similaires pointent vers d’autres division, ou les articles
 utilisants des termes juridiques et/ou techniques précis (comme “bancaire”,
@@ -127,12 +127,11 @@ tels que “renseignement”, “tribunal”, “violer”... Cela semble indiqu
 différents scandales ou affaires judiciaires entourant le secret bancaire sont
 perçues comme plus importants dans la _GDL_ que le _JDG_.  Cependant, ici comme
 dans le _JDG_ le nom des banques suisse apparaît plutôt dans le groupe
-d’articles référençant des termes financiers plus généraux, la classe 3, qui
-est très similaire à la classe 3 dans l'analyse du _JDG_ (avec les noms de
-devises, des quantités)
+d’articles référençant des termes financiers plus généraux: la classe 3, qui est
+très similaire à la classe 3 dans l'analyse du _JDG_ (avec les noms de devises
+et des quantités).
 
-![\label{percentage} Chi²-Test du terme "ubs" dans la
-_GDL_.](ubs_chisquare_gdl.png){ width=90% }
+![Chi²-Test du terme "UBS" dans la _GDL_.](ubs_chisquare_gdl.png){ width=90% }
 
 Tout ceci semble indiquer que, même si l’emphase apportée aux différents
 événements entourant le secret bancaire est différente entre les deux journaux,
