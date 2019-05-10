@@ -5,21 +5,20 @@
 
 Le sujet du secret bancaire a suscité une centaine de premières pages au sein
 des deux journaux de 1940 jusqu'à la fin des années 90. Ce chiffre relativement
-petit nous permet de lire quelques premières pages pour mieux contextualiser nos
-autres analyses.
+petit nous permet de lire quelques premières pages pour mieux mettre en contexte
+nos autres analyses.
 
 De manière générale et excluant l'année 1984 de l'initiative populaire au même
 sujet, le secret bancaire n'est pas un sujet très important dans le corpus
-financier des deux journaux. Le sous-corpus "secret bancaire" ne constitue que
-5% des articles du corpus financier, qui lui-même ne contient qu'une petite
-partie de tous les articles. Il est remarquable que dans le sous-corpus la
-proportion d'articles qui proviennent d'agences de presse est de dix pour-cent
-plus élevée que dans le corpus financier (29% pour le "secret bancaire", 18%
-pour le financier). Cela pourrait être justifié par l'hypothèse que le sujet a
-peu d'importance pour les rédactions, qui n'utilisent souvent que des dépêches
-pour en parler. Comme montré par les exemples rapportés dans le collage
-\ref{depeches}, les dépêches parlent surtout de cas judiciaires et petits
-scandales.
+financier. Le sous-corpus "secret bancaire" ne constitue que 5% des articles du
+corpus financier, qui lui-même ne contient qu'une petite partie de tous les
+articles. Il est remarquable que dans le sous-corpus la proportion d'articles
+qui proviennent d'agences de presse est de dix pour-cent plus élevée que dans le
+corpus financier (29% pour le "secret bancaire", 18% pour le financier). Cela
+pourrait être justifié par l'hypothèse que le sujet a peu d'importance pour les
+rédactions, qui n'utilisent souvent que des dépêches pour en parler. Comme le
+montre le collage \ref{depeches}, les dépêches parlent surtout de cas
+judiciaires et de petits scandales.
 
 ![\label{depeches} Exemple de dépêches, suisses et
 étrangères.](agencies_collage.png){ width=90% }
@@ -47,7 +46,7 @@ des lecteurs.
 ![\label{categorie} Nombre d'articles par catégorie d'auteur au cour du
 temps.](authors_agency_count.png){ width=90% }
 
-Par la lecture des premières pages, on peut trouver le ensemble suivant de
+Par la lecture des premières pages, nous trouvons le ensemble suivant de
 périodes principales dans l'histoire du secret bancaire:
 
 - 1940--45: Le secret bancaire est menacé de l'intérieur par le gouvernement, à
@@ -66,8 +65,8 @@ périodes principales dans l'histoire du secret bancaire:
 - 1975--84: Tumultes intérieurs vis au secret bancaire. L'économie en récession
   et la force du Franc Suisse dans les marchés de devises portent les milieux
   politiques socialistes à attaquer le secret bancaire comme responsable. Le
-  débat intérieur continue jusqu'en 1984, quand l'initiative socialiste contre le
-  secret bancaire est repoussée.
+  débat intérieur continue jusqu'en 1984, quand l'initiative socialiste contre
+  le secret bancaire est repoussée.
 
 - 1987--89: Pressions américaines poussent la Suisse à approuver la levée du
   secret bancaire dans le cas de manipulation des marchés (_insider trading_),
@@ -82,17 +81,17 @@ tranquille. En 1975, le ton change rapidement: des articles écrits par Marian
 Stepcinsky, Jean-Luc Lederrey, et par le futur politicien libéral Jacques-Simon
 Eggly gagnent souvent la première page. Ces articles sont des pièces d'opinion,
 souvent virulentes, où les avantages du secret bancaire sont rappelés.
-Contrairement aux périodes précédentes, où les avantages du secret bancaire ont
-été considéré trop évidents pour les souligner. Ces articles d'opinion forment
-une véritable propagande en faveur du secret bancaire et contre les socialistes,
-et donnent de précises indications de vote dans le mois avant l'initiative.
+Contrairement aux périodes précédentes, où ces avantages ont été considérés trop
+évidents pour les souligner. Ces articles d'opinion forment une véritable
+propagande en faveur du secret bancaire et contre les socialistes, et donnent de
+précises indications de vote dans le mois avant l'initiative.
 
 ![\label{propagande} Exemple d'articles partisans apparus dans la période
 de l'initiative.](propaganda_collage.png){ width=90% }
 
 La tonalité des articles redevient enfin plus descriptive et s'assouplie, après
-que l'initiative soit rejeté. Les lois sur la manipulation des marchés et la
-commission Bergier ne sont pas perçus comme menace essentielles à la stabilité
+que l'initiative soit rejetée. Les lois sur la manipulation des marchés et la
+commission Bergier ne sont pas perçues comme menace essentielles à la stabilité
 de la place financière.
 
 
@@ -106,13 +105,13 @@ avons aussi effectué des Chi²-tests sur des mots-clés.  Par exemple dans le
 _Journal de Genève_, nous pouvons voir que le terme "UBS" va éloigner l'article
 du groupe contenant les termes plus proches du sujet, comme "secret",
 "convention", "droit" ou "judiciaire" que l'on voit dans la première classe du
-dendrogramme (voir partie méthodologie). Et pousser l'article fortement vers le
+dendrogramme (voir partie méthodologie). Cela pousse l'article fortement vers le
 groupe trois qui contient des termes assez descriptifs (sur les intérêts et les
 devises).
 
-![Chi²-Test du terme "ubs" dans le journal de Genève.](chiubs.png){ width=90% }
+![Chi²-Test du terme "UBS" dans le _JDG_.](chiubs.png){ width=90% }
 
-D’autres tests similaires pointent vers d’autres division, ou les articles
+D’autres tests similaires pointent vers d’autres divisions, ou les articles
 utilisants des termes juridiques et/ou techniques précis (comme “bancaire”,
 “fraude”, “autorité”) vont concentrer les articles dans une même classe. Mais
 nous voyons aussi que les termes qui ramènent au nom des banques sont dissociés
@@ -121,15 +120,14 @@ des groupes parlant de l’actualité du secret bancaire.
 Du côté de la _GDL_, nous trouvons six groupes. Là ou le _JDG_ semble avoir des
 classes qui sont basées sur des sujets différents (économie, affaires
 judiciaires, légal), dans la _GDL_ il semble que les événements marquants de la
-période génèrent plus d’attentions. Car, on retrouve une classe avec des mots
+période génèrent plus d’attention. Car, on retrouve une classe avec des mots
 rappelant des affaires judiciaires. Dans cette classe on retrouve des termes
 tels que “renseignement”, “tribunal”, “violer”... Cela semble indiquer que les
-différents scandales ou affaires judiciaires entourant le secret bancaire sont
-perçues comme plus importants dans la _GDL_ que le _JDG_.  Cependant, ici comme
-dans le _JDG_ le nom des banques suisse apparaît plutôt dans le groupe
-d’articles référençant des termes financiers plus généraux: la classe 3, qui est
-très similaire à la classe 3 dans l'analyse du _JDG_ (avec les noms de devises
-et des quantités).
+différents scandales entourant le secret bancaire sont perçus comme plus
+importants dans la _GDL_ que le _JDG_.  Cependant, ici comme dans le _JDG_ le
+nom des banques suisses apparaît plutôt dans le groupe d’articles référençant
+des termes financiers plus généraux: la classe 3, qui est très similaire à la
+classe 3 dans l'analyse du _JDG_ (avec les noms de devises et des quantités).
 
 ![Chi²-Test du terme "UBS" dans la _GDL_.](ubs_chisquare_gdl.png){ width=90% }
 
@@ -142,8 +140,7 @@ les deux semblent aussi dissocier les banques du sujet même du secret bancaire.
 Cette analyse du sujet évidence clairement l'adhésion des deux rédactions à la
 politique libérale. L'absence de dépêches étrangères, surtout centrées sur les
 scandales, pendant la période de l'initiative peut être considérée comme une
-preuve du rôle politique des deux journaux.
-
+forte indication du rôle politique des deux journaux.
 
 L'analyse linguistique nous montre que la _GDL_ donne plus d'importance aux
 affaires concrètes et le _JDG_ plus au coté abstrait législatif, bien que aucun
