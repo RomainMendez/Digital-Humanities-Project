@@ -15,7 +15,7 @@
 \usepackage{graphicx}
 \graphicspath{{./}{./1_semester}{./analyse}{./methodology}}
 
-\usepackage[top=4cm, textheight=22cm, textwidth=17cm, footskip=1cm, headsep=1cm]{geometry}
+\usepackage[top=3.5cm, textheight=21.5cm, textwidth=17cm, footskip=1cm, headsep=1cm]{geometry}
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -53,10 +53,10 @@
 La place financière suisse a vu une énorme croissance presque non perturbée tout
 au long du XXème siècle. Cela a été possible grâce à la neutralité et la
 stabilité de la Suisse notamment en période de guerre mais surtout aussi grâce
-au «secret bancaire»~\citep[p. 512]{Mazbouri12}. 
+au  ``secret bancaire'' \citep[p. 512]{Mazbouri12}. 
 Le terme secret bancaire apparaît dans la presse romande dans les années 20,
-ce que l'on peut observer dans les archives du \textit{Journal de Genève} et 
-de la \textit{Gazette de Lausanne}.
+ce que l'on peut observer dans les archives du \textit{Journal de Genève (JDG)} et 
+de la \textit{Gazette de Lausanne (GDL)}.
 
 Ce dernier est déjà une
 pratique des banques suisses au XIXème siècle quand les grandes
@@ -91,7 +91,7 @@ exemple, les États-unis gèlent les avoirs des banques suisses déposés en
 Amérique déjà en 1941. Néanmoins la diplomatie suisse obtient le maintien du
 secret bancaire contre les revendications des vainqueurs. Cela marque le début
 d’une période de croissance sans précédent pour la place financière pendant les
-«trente glorieuses»~\citep[p. 495]{Mazbouri12}.
+ ``trente glorieuses''~\citep[p. 495]{Mazbouri12}.
 
 Après la guerre, à l'étranger, le secret bancaire suisse reste objet de fortes
 critiques. Les plus importants critiques étant les États-unis et la
@@ -122,7 +122,7 @@ limiter le secret bancaire \citep[p. 32]{Palan09}.
 
 Dans le cadre de notre recherche nous essayerons de retrouver ces événements
 dans la presse romande. Celle-ci étant plutôt proche des cercles financiers –
-surtout le «journal de Genève» \citep{ConfClass1} –, nous évaluerons aussi
+surtout le \textit{Journal de Genève} \citep{ConfClass1} –, nous évaluerons aussi
 leurs positions sur le secret bancaire et si cette proximité peut-être
 confirmée par les articles du corpus. Afin de nous demander, comment évolue la
 couverture médiatique du secret bancaire au XXe siècle?
@@ -167,12 +167,13 @@ analysé par Henry Meier \citep{Meier12}.
 Notre idée centrale est de porter l'analyse sur la différence entre les
 deux journaux et leur évolution dans le temps. La méthodologie détaillée
 ici est donc appliquée sur les deux journaux séparément et elle est
-organisé de manière suivante:
+organisé comme le montre l'image \ref{methods}.
 
 \begin{figure}
 \centering
 \includegraphics[width=0.7\textwidth]{methodology/methods.png}
 \caption{Organisation et outils de l'analyse.}
+\label{methods}
 \end{figure}
 
 \hypertarget{pre-processing}{%
@@ -180,8 +181,7 @@ organisé de manière suivante:
 
 Pour l'explorer de manière plus rapide, nous devons réduire le corpus de
 base qui se constitue des articles de la \emph{Gazette de Lausanne}
-(\emph{GDL}) et du \emph{Journal de Genève} (\emph{JDG}) sortis entre
-1900 et 1999.
+et du \emph{Journal de Genève} sortis entre 1900 et 1999.
 
 Nous créons trois corpus. Le plus grand est constitué de tous les
 articles, décomprimés (du format \texttt{bzip2}) et sans méta-données
@@ -211,9 +211,9 @@ extrait du premier corpus par la recherche des mots clés suivants:
   blanchiment
 \end{itemize}
 
-Nous utilisons ce corpus de \textasciitilde{}35'000 articles pour nous
+Nous utilisons ce corpus d'environ 35'000 articles pour nous
 comparer avec notre troisième corpus, sélectionné par le seul mot clé
-``secret bancaire'', contentant environ 1700 articles. De cette façon,
+``secret bancaire'', contenant environ 1'700 articles. De cette façon,
 nous pouvons déterminer si une certaine tendance de ce corpus est
 vraiment signifiante, ou si elle apparaît dans tout le corpus financier.
 
@@ -229,7 +229,7 @@ reproduisons donc le N-Gram dans le temps, pour les articles contenant
 \centering
 \includegraphics[width=0.7\textwidth]{methodology/ngram_ts.png}
 \caption{Apparitions du terme ``secret bancaire'' dans les deux journaux
-au cours du temps}
+au cours du temps.}
 \end{figure}
 
 Ensuite, nous comparons la longueur d'un article sur le secret bancaire
@@ -240,7 +240,7 @@ dans les deux journaux, sont en général un peu plus longs.
 \begin{figure}
 \centering
 \includegraphics[width=0.6\textwidth ]{methodology/article_lengths.png}
-\caption{Distribution de la longueur des articles}
+\caption{Distribution de la longueur des articles.}
 \end{figure}
 
 Nous examinons aussi, à l'aide d'un histogramme de la page de l'article,
@@ -255,7 +255,7 @@ horizontales isolées constituerait un indice d'une rubrique permanente.
 \begin{figure}
 \centering
 \includegraphics[width=0.5\textwidth ]{methodology/scatter.png}
-\caption{Nuage de points de la page des articles dans le temps}
+\caption{Nuage de points de la page des articles dans le temps.}
 \end{figure}
 
 En comparant le nombre d'article en première page, nous constatons que
@@ -307,7 +307,7 @@ nous pouvons attribuer des auteurs à plus que 2600 articles.
 \begin{figure}
 \centering
 \includegraphics[width=0.6\textwidth]{methodology/author_attributed.png}
-\caption{Articles avec auteur attribué}
+\caption{Articles avec auteur attribué.}
 \end{figure}
 
 Cette attribution nous permet de poser les questions suivantes: Est-ce
@@ -335,7 +335,7 @@ pour les deux journaux.
 \centering
 \includegraphics[width=1\textwidth ]{methodology/similitude.png}
 \caption{Graphes de similitudes du \emph{JDG} (gauche) et de la
-\emph{GDL} (droite)}
+\emph{GDL} (droite).}
 \end{figure}
 
 En regardant le résultat on voit que les mots qui apparaissent souvent
@@ -356,7 +356,7 @@ produisons deux dendrogrammes sur les journaux.
 \centering
 \includegraphics[width=1\textwidth ]{methodology/dendrogram.png}
 \caption{Dendrogrammes du \emph{JDG} (gauche) et de la \emph{GDL}
-(droite)}
+(droite).}
 \end{figure}
 
 Cela nous permet de comparer le langage utilisé dans les deux journaux,
