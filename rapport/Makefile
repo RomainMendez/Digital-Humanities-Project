@@ -14,7 +14,7 @@ join-with = $(subst $(space),$1,$(strip $2))
 FOLDERS_COLONS = $(call join-with,:,$(FOLDERS)):1_semester/
 
 
-all: $(PDFS) rapport.html
+all: $(PDFS)
 
 1_semester/rapport.tex:
 
